@@ -23,9 +23,8 @@ export default function CounterUp({ count }) {
             window.removeEventListener('scroll', handleScroll)
         }
     }, [])
-    return (
-        <>
+    return <>
             <span className="odometer">{inViewport && <Counter end={count} duration={20} />}</span>
         </>
-    )
+    
 }

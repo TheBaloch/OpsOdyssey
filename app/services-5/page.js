@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Services5() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="All Services">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="All Services" >
                 <section className="services__area-seven services__bg-seven" data-background="/assets/img/bg/h5_services_bg.jpg">
                     <div className="container">
                         <div className="row justify-content-center">

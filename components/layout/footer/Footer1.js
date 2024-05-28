@@ -11,7 +11,7 @@ export default function Footer1() {
                                 <div className="col-xl-3 col-lg-4 col-md-6">
                                     <div className="footer-widget">
                                         <div className="fw-logo mb-25">
-                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="" /></Link>
+                                            <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="" /></Link>
                                         </div>
                                         <div className="footer-content">
                                             <p>Felis consquat magnis fames sagittis ultrices plasodales porttitor quisque ultrice tempor turpis.</p>

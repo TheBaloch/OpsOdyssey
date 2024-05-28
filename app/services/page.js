@@ -11,7 +11,7 @@ export default function Services() {
                             <div className="col-xl-6 col-lg-8">
                                 <div className="section-title text-center mb-40">
                                     <span className="sub-title">WHAT WE OFFER</span>
-                                    <h2 className="title">We Offer An Effective Wide Area Business solutions</h2>
+                                    <h2 className="title">Sleek and Effective Web Development Services</h2>
                                 </div>
                             </div>
                         </div>
@@ -20,14 +20,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img01.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/development.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
                                             <div className="icon">
-                                                <i className="flaticon-profit" />
+                                                <img style={{width:'20px'}} src="/assets/img/icon/code-slash-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Strategic marketing</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">Web Design and Development</Link></h4>
+                                            <p>Creating visually appealing and functional websites tailored to clients' needs.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>
@@ -35,14 +35,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img02.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/responsive.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
-                                            <div className="icon">
-                                                <i className="flaticon-investment-1" />
+                                            <div className="icon ">
+                                            <img style={{width:'20px'}} src="/assets/img/icon/id-card-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Investment Planning</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">Responsive Web Development</Link></h4>
+                                            <p>Ensuring websites are optimized for various devices, including desktops, tablets, and smartphones.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>
@@ -50,14 +50,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img03.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/cyber-monday-shopping-sales.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
                                             <div className="icon">
-                                                <i className="flaticon-pie-chart" />
+                                            <img style={{width:'20px'}} src="/assets/img/icon/bag-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Insights  analytics</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">E-commerce Development</Link></h4>
+                                            <p>Building online stores with features like product catalogs, shopping carts, and secure payment gateways.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>
@@ -65,14 +65,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img04.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/cms.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
                                             <div className="icon">
-                                                <i className="flaticon-light-bulb" />
+                                            <img style={{width:'20px'}} src="/assets/img/icon/server-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Business consulting</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">Content Management Systems (CMS) Development</Link></h4>
+                                            <p> Developing custom CMS solutions or utilizing popular platforms like WordPress for easy content management.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>
@@ -80,14 +80,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img05.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/custom.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
                                             <div className="icon">
-                                                <i className="flaticon-investment" />
+                                            <img style={{width:'20px'}} src="/assets/img/icon/color-wand-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Business Development</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">Custom Web App Development</Link></h4>
+                                            <p>Building bespoke web applications to streamline business processes or deliver specific functionalities.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>
@@ -95,14 +95,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img06.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/seo.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
                                             <div className="icon">
-                                                <i className="flaticon-piggy-bank" />
+                                            <img style={{width:'20px'}} src="/assets/img/icon/rocket-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Tax Audit</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">Search Engine Optimization (SEO)</Link></h4>
+                                            <p>Optimizing websites to improve visibility and rankings on search engine results pages.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>
@@ -110,14 +110,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img07.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/hosting.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
                                             <div className="icon">
-                                                <i className="flaticon-financial-profit" />
+                                            <img style={{width:'20px'}} src="/assets/img/icon/layers-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Financial Growth</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">Web Hosting and Domain Services</Link></h4>
+                                            <p>Providing hosting solutions and domain registration services for clients' websites.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>
@@ -125,14 +125,14 @@ export default function Services() {
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
-                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/services_img08.jpg" alt="" /></Link>
+                                            <Link href="/services-details" className="shine-animate"><img src="/assets/img/services/maintain.jpg" alt="" /></Link>
                                         </div>
                                         <div className="services-content">
                                             <div className="icon">
-                                                <i className="flaticon-budget" />
+                                            <img style={{width:'20px'}} src="/assets/img/icon/leaf-outline.svg" />
                                             </div>
-                                            <h4 className="title"><Link href="/service-details">Revenue Calculate</Link></h4>
-                                            <p>Morem ipsum dolor sittemet consectetur adipiscing.</p>
+                                            <h4 className="title"><Link href="/service-details">Website Maintenance and Support</Link></h4>
+                                            <p>Offering ongoing maintenance, updates, and technical support for clients' websites.</p>
                                             <Link href="/services-details" className="btn">Read More</Link>
                                         </div>
                                     </div>

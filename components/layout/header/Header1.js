@@ -32,8 +32,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, transp
                             <div className="col-12">
                                 <div className="tgmenu__wrap">
                                     <nav className="tgmenu__nav">
-                                        <div className="logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                                        <div className="logo mt-20">
+                                            <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="Logo" /></Link>
                                         </div>
                                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                             <Menu />

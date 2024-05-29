@@ -10,43 +10,43 @@ export default function Features1() {
                             <div className="col-lg-3 col-md-6">
                                 <div className="features__item">
                                     <div className="features__icon">
-                                        <i className="flaticon-financial-profit" />
+                                        <img src='/assets/img/icon/web-programming.png'/>
                                     </div>
                                     <div className="features__content">
-                                        <h4 className="title"><Link href="/services-details">Finance Planning</Link></h4>
-                                        <p>Agilos helps youcona doing <br /> tempor incididunt.</p>
+                                        <h4 className="title"><Link href="/services-details">Web Design and Development</Link></h4>
+                                        <p>Designing websites that <br />marry beauty with purpose</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="features__item">
                                     <div className="features__icon">
-                                        <i className="flaticon-light-bulb" />
+                                    <img src='/assets/img/icon/software-development.png'/>
                                     </div>
                                     <div className="features__content">
-                                        <h4 className="title"><Link href="/services-details">Strategic Idea</Link></h4>
-                                        <p>Agilos helps youcona doing <br /> tempor incididunt.</p>
+                                        <h4 className="title"><Link href="/services-details">Responsive Web Development</Link></h4>
+                                        <p>Ensuring cross-device website optimization.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="features__item">
                                     <div className="features__icon">
-                                        <i className="flaticon-target" />
+                                    <img src='/assets/img/icon/shopping.png'/>
                                     </div>
                                     <div className="features__content">
-                                        <h4 className="title"><Link href="/services-details">Business Goal</Link></h4>
-                                        <p>Agilos helps youcona doing <br /> tempor incididunt.</p>
+                                        <h4 className="title"><Link href="/services-details">E-commerce Development</Link></h4>
+                                        <p>Developing feature-rich <br/> e-commerce solutions.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="features__item">
                                     <div className="features__icon">
-                                        <i className="flaticon-profit" />
+                                    <img src='/assets/img/icon/cms-system.png'/>
                                     </div>
                                     <div className="features__content">
-                                        <h4 className="title"><Link href="/services-details">Marketing Growth</Link></h4>
+                                        <h4 className="title"><Link href="/services-details">Crafting customizable CMS</Link></h4>
                                         <p>Agilos helps youcona doing <br /> tempor incididunt.</p>
                                     </div>
                                 </div>

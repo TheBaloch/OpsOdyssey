@@ -19,15 +19,15 @@ export default function HeroSlider() {
         <>
             <Swiper {...swiperOptions}>
                 <SwiperSlide className="swiper-slide slider__single">
-                    <div className="slider__bg" data-background="/assets/img/slider/slider_bg01.jpg" />
+                    <div className="slider__bg" data-background="/assets/img/slider/slider1.jpg" />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="slider__content">
                                     <span className="sub-title">We Are Expert In This Field</span>
-                                    <h2 className="title">Transforming Dreams into Financial Reality</h2>
-                                    <p>Agilos helps you to convert your data into a strategic asset and get business insights Agilos helps you to convert.</p>
-                                    <Link href="/contact" className="btn">Free Consulting</Link>
+                                    <h2 className="title">From Imagination to Realization</h2>
+                                    <p>Where Dreams Inspire Code, and Code Brings Dreams to Life</p>
+                                    <Link href="/contact" className="btn">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
@@ -38,15 +38,15 @@ export default function HeroSlider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide slider__single">
-                    <div className="slider__bg" data-background="/assets/img/slider/slider_bg02.jpg" />
+                    <div className="slider__bg" data-background="/assets/img/slider/slider2.jpg" />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="slider__content">
                                     <span className="sub-title">We Are Expert In This Field</span>
-                                    <h2 className="title">Transforming Dreams into Financial Reality</h2>
-                                    <p>Agilos helps you to convert your data into a strategic asset and get business insights Agilos helps you to convert.</p>
-                                    <Link href="/contact" className="btn">Free Consulting</Link>
+                                    <h2 className="title">Transforming Imagination into Implementation</h2>
+                                    <p>Bringing Your Ideas to Life in Code</p>
+                                    <Link href="/contact" className="btn">Contact Us</Link>
                                 </div>
                             </div>
                         </div>

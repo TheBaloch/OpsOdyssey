@@ -32,7 +32,7 @@ export default function Footer2() {
                                     <div className="footer-widget">
                                         <div className="footer__content-two">
                                             <div className="fw-logo mb-25">
-                                                <Link href="/"><img src="/assets/img/logo/w_logo.png" alt="" /></Link>
+                                                <Link  href="/"><img src="/assets/img/logo/file.png" alt="" /></Link>
                                             </div>
                                             <p>Felis consquat magnis fames sagittis ultrices plasodales porttitor</p>
                                             <div className="footer-info-list footer-info-two">
@@ -50,7 +50,7 @@ export default function Footer2() {
                                                             <i className="flaticon-envelope" />
                                                         </div>
                                                         <div className="content">
-                                                            <Link href="mailto:info@apexa.com">info@apexa.com</Link>
+                                                            <Link href="mailto:hi@opsodyssey.com">hi@opsodyssey.com</Link>
                                                         </div>
                                                     </li>
                                                     <li>

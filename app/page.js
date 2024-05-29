@@ -14,7 +14,7 @@ import Team1 from "@/components/sections/Team1"
 import Testimonial1 from "@/components/sections/Testimonial1"
 
 export const metadata = {
-    title: 'Apexa - Business Consulting NextJS Template',
+    title: 'OpsOdyssey',
 }
 
 export default function Home() {

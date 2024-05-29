@@ -8,7 +8,7 @@ export default function OffcanvusMenu({ isOffcanvus, handleOffcanvus }) {
                     <button><i className="far fa-window-close" /></button>
                 </div>
                 <div className="offCanvas__logo mb-30">
-                    <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                    <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="Logo" /></Link>
                 </div>
                 <div className="offCanvas__side-info mb-30">
                     <div className="contact-list mb-30">
@@ -22,7 +22,7 @@ export default function OffcanvusMenu({ isOffcanvus, handleOffcanvus }) {
                     </div>
                     <div className="contact-list mb-30">
                         <h4>Email Address</h4>
-                        <p>info@example.com</p>
+                        <p>hi@opsodyssey.com</p>
                         <p>example.mail@hum.com</p>
                     </div>
                 </div>

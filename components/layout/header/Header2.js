@@ -12,7 +12,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, transp
                 <div className="tg-header__inner-wrap">
                     <div className="tg-header__logo-wrap">
                         <div className="logo">
-                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                            <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="Logo" /></Link>
                         </div>
                     </div>
                     <div className="tg-header__right-side">
@@ -26,7 +26,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, transp
                                 </div>
                                 <div className="col-lg-6">
                                     <ul className="tg-header__top-right tg-header__top-right-two list-wrap">
-                                        <li><i className="flaticon-envelope" /><Link href="mailto:info@apexa.com">info@apexa.com</Link></li>
+                                        <li><i className="flaticon-envelope" /><Link href="mailto:hi@opsodyssey.com">hi@opsodyssey.com</Link></li>
                                         <li><i className="flaticon-time" />Mon-Fri: 10:00am - 09:00pm</li>
                                     </ul>
                                 </div>
@@ -38,7 +38,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, transp
                                     <div className="tgmenu__wrap">
                                         <nav className="tgmenu__nav">
                                             <div className="logo d-none">
-                                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                                                <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="Logo" /></Link>
                                             </div>
                                             <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                                 <Menu />
@@ -90,7 +90,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, transp
                                         <nav className="tgmobile__menu-box">
                                             <div className="close-btn" onClick={handleMobileMenu}><i className="fas fa-times" /></div>
                                             <div className="nav-logo">
-                                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                                                <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="Logo" /></Link>
                                             </div>
                                             <div className="tgmobile__search">
                                                 <form action="#">
@@ -104,7 +104,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, transp
                                             <div className="tgmobile__menu-bottom">
                                                 <div className="contact-info">
                                                     <ul className="list-wrap">
-                                                        <li><Link href="mailto:info@apexa.com">info@apexa.com</Link></li>
+                                                        <li><Link href="mailto:hi@opsodyssey.com">hi@opsodyssey.com</Link></li>
                                                         <li><Link href="tel:0123456789">+123 888 9999</Link></li>
                                                     </ul>
                                                 </div>

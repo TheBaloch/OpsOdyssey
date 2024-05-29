@@ -14,13 +14,13 @@ import Team2 from "@/components/sections/Team2"
 import Testimonial2 from "@/components/sections/Testimonial2"
 
 export const metadata = {
-    title: 'Apexa - Business Consulting NextJS Template',
+    title: 'OpsOdyssey',
 }
 
 export default function Home2() {
     return (
         <>
-            <Layout headerStyle={2} footerStyle={2}>
+            <Layout headerStyle={2} footerStyle={2} >
                 <Slider1 />
                 <Features1 />
                 <About2 />

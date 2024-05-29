@@ -19,7 +19,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, transp
                             </div>
                             <div className="col-lg-6">
                                 <ul className="tg-header__top-right list-wrap">
-                                    <li><i className="flaticon-envelope" /><Link href="mailto:info@apexa.com">info@apexa.com</Link></li>
+                                    <li><i className="flaticon-envelope" /><Link href="mailto:hi@opsodyssey.com">hi@opsodyssey.com</Link></li>
                                     <li><i className="flaticon-time" />Mon-Fri: 10:00am - 09:00pm</li>
                                 </ul>
                             </div>

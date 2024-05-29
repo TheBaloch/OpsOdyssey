@@ -20,7 +20,7 @@ import Footer7 from "./footer/Footer7"
 import Footer6 from "./footer/Footer6"
 
 export const metadata = {
-    title: 'Apexa - Business Consulting NextJS Template',
+    title: 'OpsOdyssey',
 }
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, transparent }) {

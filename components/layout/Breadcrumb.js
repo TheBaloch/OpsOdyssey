@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Breadcrumb({ breadcrumbTitle }) {
     return (
         <>
-            <section className="breadcrumb__area breadcrumb__bg" data-background="/assets/img/bg/breadcrumb_bg.jpg">
+            <section className="breadcrumb__area breadcrumb__bg" data-background="/assets/img/bg/workers.jpg">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">

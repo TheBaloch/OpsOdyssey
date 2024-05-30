@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function About() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us" >
                 <div>
                     <section className="about__area-four">
                         <div className="container">
@@ -33,9 +33,9 @@ export default function About() {
                                     <div className="about__content-four">
                                         <div className="section-title mb-30">
                                             <span className="sub-title">Simply Know About</span>
-                                            <h2 className="title">We Help Organizations To Make Ultimate Businesses Growth Success</h2>
+                                            <h2 className="title">Welcome to OpsOdeyssey!</h2>
                                         </div>
-                                        <div className="about__content-inner-three">
+                                        {/* <div className="about__content-inner-three">
                                             <div className="about__list-box">
                                                 <ul className="list-wrap">
                                                     <li><i className="flaticon-arrow-button" />Medicare Advantage Plans</li>
@@ -46,8 +46,8 @@ export default function About() {
                                             <div className="about__list-img-two">
                                                 <img src="/assets/img/images/about_list_img02.png" alt="" />
                                             </div>
-                                        </div>
-                                        <p>We successfully cope with tasks of varying complexityprovide longerty term guarantees and regularly master new Practice Area technol ogiesOur portfolio includes dozen</p>
+                                        </div> */}
+                                        <p>We are a dedicated team of web development professionals passionate about crafting exceptional digital experiences. With a wealth of experience in both frontend and backend technologies, we deliver robust, scalable, and innovative solutions tailored to meet your business needs.</p>
                                         <Link href="/contact" className="btn">Contact With Us</Link>
                                     </div>
                                 </div>
@@ -72,9 +72,9 @@ export default function About() {
                                     <div className="choose__content-four">
                                         <div className="section-title white-title mb-20">
                                             <span className="sub-title">Why We Are The Best</span>
-                                            <h2 className="title">Digital Solutions For Your Online Business</h2>
+                                            <h2 className="title">Our Experties In <br/> Web Development <br/> Set Us Apart</h2>
                                         </div>
-                                        <p>We successfully cope with tasks of varying complexity provide area longerty guarantees and regularly master new Practice Following gies heur.</p>
+                                        <p>At OpsOdeyssey, we fuse extensive expertise from diverse domains to craft outstanding web solutions. Our adept team harnesses cutting-edge technologies to deliver scalable, <br/> user-centric applications tailored to your needs.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -86,8 +86,8 @@ export default function About() {
                                                         <i className="flaticon-investment" />
                                                     </div>
                                                     <div className="choose__list-content-two">
-                                                        <h4 className="title">Business Solutions</h4>
-                                                        <p>Semper egetuis kelly for tellus urna area condition.</p>
+                                                        <h4 className="title">Frontend Development</h4>
+                                                        <p>React JS,Angular JS + Ionic,Next JS,Vue JS,Nuxt JS</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -97,8 +97,8 @@ export default function About() {
                                                         <i className="flaticon-financial-profit" />
                                                     </div>
                                                     <div className="choose__list-content-two">
-                                                        <h4 className="title">Finance Planning</h4>
-                                                        <p>Semper egetuis kelly for tellus urna area condition.</p>
+                                                        <h4 className="title">Backend Development</h4>
+                                                        <p>Node JS, Express, PHP Laravel, Django(Python), PHP CodeIgniter</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -108,8 +108,8 @@ export default function About() {
                                                         <i className="flaticon-investment-1" />
                                                     </div>
                                                     <div className="choose__list-content-two">
-                                                        <h4 className="title">Market Analysis</h4>
-                                                        <p>Semper egetuis kelly for tellus urna area condition.</p>
+                                                        <h4 className="title">Headless CMS</h4>
+                                                        <p>Strapi, Sanity, Payload</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -119,8 +119,30 @@ export default function About() {
                                                         <i className="flaticon-report" />
                                                     </div>
                                                     <div className="choose__list-content-two">
-                                                        <h4 className="title">Business Solutions</h4>
-                                                        <p>Semper egetuis kelly for tellus urna area condition.</p>
+                                                        <h4 className="title">Telephony Solutions</h4>
+                                                        <p>Asterisk, Vicidial, Switch, Goauto Dial</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div className="choose__list-box-two">
+                                                    <div className="choose__list-icon-two">
+                                                        <i className="flaticon-investment-1" />
+                                                    </div>
+                                                    <div className="choose__list-content-two">
+                                                        <h4 className="title">DevOps & System Administration</h4>
+                                                        <p>Linux System Administration, Docker, Kubernetes,Hetzner Cloud and Dedicated Servers, AWS</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div className="choose__list-box-two">
+                                                    <div className="choose__list-icon-two">
+                                                        <i className="flaticon-investment-1" />
+                                                    </div>
+                                                    <div className="choose__list-content-two">
+                                                        <h4 className="title">Web Scraping</h4>
+                                                        <p>Selenium</p>
                                                     </div>
                                                 </div>
                                             </li>

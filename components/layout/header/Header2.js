@@ -38,7 +38,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, transp
                                     <div className="tgmenu__wrap">
                                         <nav className="tgmenu__nav">
                                             <div className="logo d-none">
-                                                <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="Logo" /></Link>
+                                                <Link href="/"><img src="/assets/img/logo/logo-no-background-sm.png" alt="Logo" /></Link>
                                             </div>
                                             <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                                 <Menu />
@@ -90,7 +90,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, transp
                                         <nav className="tgmobile__menu-box">
                                             <div className="close-btn" onClick={handleMobileMenu}><i className="fas fa-times" /></div>
                                             <div className="nav-logo">
-                                                <Link href="/"><img src="/assets/img/logo/logo-no-background.png" alt="Logo" /></Link>
+                                                <Link href="/"><img src="/assets/img/logo/logo-no-background-sm.png" alt="Logo" /></Link>
                                             </div>
                                             <div className="tgmobile__search">
                                                 <form action="#">

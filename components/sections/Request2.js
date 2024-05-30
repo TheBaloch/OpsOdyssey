@@ -4,12 +4,12 @@ export default function Request2() {
     return (
         <>
             <section className="request__area-two">
-                <div className="request__bg-two" data-background="/assets/img/bg/h2_request_bg.jpg" />
+                <div className="request__bg-two" data-background="/assets/img/bg/team.jpg" />
                 <div className="container">
                     <div className="row justify-content-end">
                         <div className="col-xl-5 col-lg-6">
                             <div className="request__content-two">
-                                <h2 className="title">Offering The Best <span>Experience Of</span> Finance Services</h2>
+                                <h2 className="title">Providing <br/>  <span>top-notch </span><br/> web development services </h2>
                                 <div className="request__phone">
                                     <div className="icon">
                                         <i className="flaticon-phone-call" />

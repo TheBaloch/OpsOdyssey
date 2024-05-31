@@ -19,8 +19,8 @@ export default function Contact() {
                                 <div className="col-lg-5">
                                     <div className="contact__content">
                                         <div className="section-title mb-35">
-                                            <h2 className="title">How can we help you?</h2>
-                                            <p>When an unknown printer took a galley of type and scrambled it to make type pecimen book. It has survived not only five areafact types remaining essentially unchangedIt</p>
+                                            <h2 className="title">How Can We Assist You?</h2>
+                                            <p>We’re here to provide you with exceptional service and support. Whether you have a question, need assistance, or want to explore our services, our team is ready to help. Reach out to us and let’s make something great together.</p>
                                         </div>
                                         <div className="contact__info">
                                             <ul className="list-wrap">
@@ -48,7 +48,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h4 className="title">E-mail</h4>
-                                                        <Link href="mailto:info@gmail.com">info@gmail.com</Link>
+                                                        <Link href="mailto:hi@opsodyssey.com">hi@opsodyssey.com</Link>
                                                     </div>
                                                 </li>
                                             </ul>

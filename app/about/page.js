@@ -6,23 +6,23 @@ import Link from "next/link"
 export default function About() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us" >
+            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="About Us" >
                 <div>
                     <section className="about__area-four">
                         <div className="container">
                             <div className="row align-items-center justify-content-center">
                                 <div className="col-lg-6 col-md-9 col-sm-10">
                                     <div className="about__img-wrap-four">
-                                        <img src="/assets/img/images/inner_about01.jpg" alt="" />
-                                        <img src="/assets/img/images/inner_about02.jpg" alt="" />
+                                        <img src="/assets/img/images/webteam.jpg" alt="" />
+                                        <img src="/assets/img/images/webteam2.jpg" alt="" />
                                         <div className="about__award-box">
                                             <div className="icon">
                                                 <i className="flaticon-trophy" />
                                             </div>
-                                            <div className="content">
+                                            {/* <div className="content">
                                                 <h2 className="title">15+</h2>
                                                 <p>World Best Agency <br /> Award Got</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="shape">
                                             <img src="/assets/img/images/inner_about_shape.jpg" alt="" className="alltuchtopdown" />
@@ -83,7 +83,7 @@ export default function About() {
                                             <li>
                                                 <div className="choose__list-box-two">
                                                     <div className="choose__list-icon-two">
-                                                        <i className="flaticon-investment" />
+                                                        <img src="/assets/img/icon/ux-design.png" />
                                                     </div>
                                                     <div className="choose__list-content-two">
                                                         <h4 className="title">Frontend Development</h4>
@@ -94,7 +94,7 @@ export default function About() {
                                             <li>
                                                 <div className="choose__list-box-two">
                                                     <div className="choose__list-icon-two">
-                                                        <i className="flaticon-financial-profit" />
+                                                    <img src="/assets/img/icon/development.png" />
                                                     </div>
                                                     <div className="choose__list-content-two">
                                                         <h4 className="title">Backend Development</h4>
@@ -105,7 +105,7 @@ export default function About() {
                                             <li>
                                                 <div className="choose__list-box-two">
                                                     <div className="choose__list-icon-two">
-                                                        <i className="flaticon-investment-1" />
+                                                    <img src="/assets/img/icon/cms.png" />
                                                     </div>
                                                     <div className="choose__list-content-two">
                                                         <h4 className="title">Headless CMS</h4>
@@ -116,7 +116,7 @@ export default function About() {
                                             <li>
                                                 <div className="choose__list-box-two">
                                                     <div className="choose__list-icon-two">
-                                                        <i className="flaticon-report" />
+                                                    <img src="/assets/img/icon/video-conferencing.png" />
                                                     </div>
                                                     <div className="choose__list-content-two">
                                                         <h4 className="title">Telephony Solutions</h4>
@@ -127,10 +127,10 @@ export default function About() {
                                             <li>
                                                 <div className="choose__list-box-two">
                                                     <div className="choose__list-icon-two">
-                                                        <i className="flaticon-investment-1" />
+                                                    <img src="/assets/img/icon/devops.png" />
                                                     </div>
                                                     <div className="choose__list-content-two">
-                                                        <h4 className="title">DevOps & System Administration</h4>
+                                                    <h4 className="title">DevOps </h4>
                                                         <p>Linux System Administration, Docker, Kubernetes,Hetzner Cloud and Dedicated Servers, AWS</p>
                                                     </div>
                                                 </div>
@@ -138,7 +138,7 @@ export default function About() {
                                             <li>
                                                 <div className="choose__list-box-two">
                                                     <div className="choose__list-icon-two">
-                                                        <i className="flaticon-investment-1" />
+                                                    <img src="/assets/img/icon/browser.png" />
                                                     </div>
                                                     <div className="choose__list-content-two">
                                                         <h4 className="title">Web Scraping</h4>
@@ -319,7 +319,7 @@ export default function About() {
                                         <div className="section-title white-title mb-10">
                                             <h2 className="title">Request A Call Back</h2>
                                         </div>
-                                        <p>Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.</p>
+                                        <p>Need help bringing your web development vision to life?<br/> Our experienced team is here to provide the support you need. Fill out the form below to request a call back, and let's create something amazing together.</p>
                                         <div className="shape">
                                             <img src="/assets/img/images/call_back_shape.png" alt="" data-aos="fade-right" data-aos-delay={400} />
                                         </div>

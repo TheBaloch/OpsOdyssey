@@ -34,7 +34,7 @@ export default function Footer2() {
                                             <div className="fw-logo mb-25">
                                                 <Link  href="/"><img src="/assets/img/logo/file.png" alt="" /></Link>
                                             </div>
-                                            <p>Felis consquat magnis fames sagittis ultrices plasodales porttitor</p>
+                                            <p>Turning your digital dreams into reality with cutting-edge web development. Let's build something extraordinary together.</p>
                                             <div className="footer-info-list footer-info-two">
                                                 <ul className="list-wrap">
                                                     <li>
@@ -117,9 +117,9 @@ export default function Footer2() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div className="copyright-text-two">
+                                    {/* <div className="copyright-text-two">
                                         <p>Copyright © <Link href="/">Apexa</Link> | All Right Reserved</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

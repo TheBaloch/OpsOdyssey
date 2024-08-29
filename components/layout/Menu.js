@@ -4,8 +4,8 @@ export default function Menu() {
     return (
         <>
             <ul className="navigation">
-                <li className="active menu-item-has-children"><Link href="#">Home</Link>
-                    <ul className="sub-menu">
+                <li><Link href="/" >Home</Link>
+                    {/* <ul className="sub-menu">
                         <li><Link href="/">01. Business</Link></li>
                         <li><Link href="/index-2">02. Finance</Link></li>
                         <li><Link href="/index-3">03. Consulting</Link></li>
@@ -14,19 +14,10 @@ export default function Menu() {
                         <li><Link href="/index-6">06. Finance Solutions</Link></li>
                         <li><Link href="/index-7">07. Accounting Services</Link></li>
                         <li><Link href="/index-8">08. IT Solutions</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="menu-item-has-children"><Link href="#">About Us</Link>
-                    <ul className="sub-menu">
-                        <li><Link href="/about">Business About</Link></li>
-                        <li><Link href="/about-2">Finance About</Link></li>
-                        <li><Link href="/about-5">Consulting About</Link></li>
-                        <li><Link href="/about-3">Insurance About</Link></li>
-                        <li><Link href="/about-4">Digital agency About</Link></li>
-                    </ul>
-                </li>
-                <li className="menu-item-has-children"><Link href="#">Services</Link>
-                    <ul className="sub-menu">
+                <li ><Link href="/services">Services</Link>
+                    {/* <ul className="sub-menu">
                         <li><Link href="/services">Business Service</Link></li>
                         <li><Link href="/services-2">Finance Service</Link></li>
                         <li><Link href="/services-3">Consulting Service</Link></li>
@@ -37,10 +28,10 @@ export default function Menu() {
                         <li><Link href="/services-details-3">Service Details Three</Link></li>
                         <li><Link href="/services-details-4">Service Details Four</Link></li>
                         <li><Link href="/services-details-5">Service Details Five</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="menu-item-has-children"><Link href="#">Pages</Link>
-                    <ul className="sub-menu">
+                <li><Link href="/pricing">Pricing</Link>
+                    {/* <ul className="sub-menu">
                         <li><Link href="/team">Team One</Link></li>
                         <li><Link href="/team-2">Team Two</Link></li>
                         <li><Link href="/team-3">Team Three</Link></li>
@@ -51,15 +42,24 @@ export default function Menu() {
                         <li><Link href="/login">Login Page</Link></li>
                         <li><Link href="/register">Register Page</Link></li>
                         <li><Link href="/forgot-password">Forgot password Page</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="menu-item-has-children"><Link href="#">Blog</Link>
-                    <ul className="sub-menu">
-                        <li><Link href="/blog">Our Blog</Link></li>
-                        <li><Link href="/blog-details">Blog Details</Link></li>
-                    </ul>
+                
+                <li ><Link href="/about">About Us</Link>
+                    {/* <ul className="sub-menu">
+                        <li><Link href="/about">Business About</Link></li>
+                        <li><Link href="/about-2">Finance About</Link></li>
+                        <li><Link href="/about-5">Consulting About</Link></li>
+                        <li><Link href="/about-3">Insurance About</Link></li>
+                        <li><Link href="/about-4">Digital agency About</Link></li>
+                    </ul> */}
                 </li>
-                <li><Link href="/contact">contacts</Link></li>
+               
+                
+                {/* <li >
+                    <Link href="/blog">Blog</Link>
+                </li> */}
+                <li ><Link href="/contact">Contact Us</Link></li>
             </ul>
         </>
     )

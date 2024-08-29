@@ -69,10 +69,9 @@ export default function Slider3() {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="banner__content-three">
-                                            <h2 className="title">Transforming businesses with <span>cutting-edge IT</span>
-                                                solutions</h2>
-                                            <p>Empower your business with our comprehensive IT services and drive growth.
-                                            </p>
+                                            <h2 className="title">Expertly Crafted Web Solutions</h2>
+                                            <p >OpsOdyssey specializes in delivering tailored web development solutions designed to meet the diverse needs of businesses globally. Built on a foundation of innovation and excellence, OpsOdyssey is recognized for its creation of cutting-edge websites that seamlessly integrate design and functionality. </p>
+                                           
                                             <Link href="/contact" className="btn">Contact us</Link>
                                         </div>
                                     </div>
@@ -85,10 +84,8 @@ export default function Slider3() {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="banner__content-three">
-                                            <h2 className="title">Transforming businesses with <span>cutting-edge IT</span>
-                                                solutions</h2>
-                                            <p>Empower your business with our comprehensive IT services and drive growth.
-                                            </p>
+                                        <h2 className="title">Elevate Your Digital Presence</h2>
+                                            <p > Our team of seasoned developers and designers is dedicated to crafting bespoke solutions that drive business growth. With an unwavering commitment to quality and client satisfaction, OpsOdyssey collaborates closely with businesses to translate concepts into impactful digital experiences. </p>
                                             <Link href="/contact" className="btn">Contact us</Link>
                                         </div>
                                     </div>
@@ -118,16 +115,17 @@ export default function Slider3() {
                                 </div>
                                 <div className="form-grp select-grp">
                                     <select name="orderby" className="orderby">
-                                        <option value="Select Insurance Service">Select Insurance Service</option>
-                                        <option value="Health Insurance">Health Insurance</option>
-                                        <option value="Travel Insurance">Travel Insurance</option>
-                                        <option value="Vehicle Insurance">Vehicle Insurance</option>
-                                        <option value="Cargo Insurance">Cargo Insurance</option>
-                                        <option value="Fire Insurance">Fire Insurance</option>
-                                        <option value="Bike Insurance">Bike Insurance</option>
+                                        <option value="Select Insurance Service">Discussing a future Project</option>
+                                        <option value="Health Insurance">Digital Marketing</option>
+                                        <option value="Travel Insurance">Mobile App Development</option>
+                                        <option value="Vehicle Insurance">Search Engine Optimization</option>
+                                        <option value="Cargo Insurance">Social Media Marketing</option>
+                                        <option value="Bike Insurance">UI/UX Design</option> 
+                                        <option value="Fire Insurance">Website Development</option>
+                                        <option value="Fire Insurance">Something else</option>
                                     </select>
                                 </div>
-                                <div className="range-slider-wrap">
+                                {/* <div className="range-slider-wrap">
                                     <div className="range-top">
                                         <p>Limits of balance:</p>
                                         <span>$<strong id="rangeValue">{value}</strong></span>
@@ -137,8 +135,8 @@ export default function Slider3() {
                                         max="50000"
                                         value={value}
                                         onChange={e => handleChange(e)} />
-                                </div>
-                                <button type="submit" className="btn">Request a Quote</button>
+                                </div> */}
+                                <button type="submit" className="btn mt-4">Request a Quote</button>
                             </form>
                         </div>
                     </div>

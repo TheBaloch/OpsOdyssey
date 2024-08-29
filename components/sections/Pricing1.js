@@ -17,10 +17,10 @@ export default function Pricing1() {
                     <PricingTable />
                     </div>
                 </div>
-                <div className="pricing__shape-wrap">
+                {/* <div className="pricing__shape-wrap">
                     <img src="/assets/img/images/pricing_shape01.png" alt="" data-aos="fade-right" data-aos-delay={400} />
                     <img src="/assets/img/images/pricing_shape02.png" alt="" data-aos="fade-left" data-aos-delay={400} />
-                </div>
+                </div> */}
             </section>
         </>
     )

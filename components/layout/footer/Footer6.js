@@ -12,10 +12,9 @@ export default function Footer6() {
                                     <div className="footer-widget">
                                         <div className="footer__content-two">
                                             <div className="fw-logo mb-25">
-                                                <Link href="/"><img src="/assets/img/logo/w_logo.png" alt="" /></Link>
+                                                <Link href="/"><img src="/assets/img/logo/w-logo.png" alt="" /></Link>
                                             </div>
-                                            <p className="color-white mb-40">Felis consquat magnis fames sagittis ultrices plasodales porttitor</p>
-                                            <div className="footer__newsletter-four footer__newsletter-six">
+                                            <p className="color-white mb-40 text-justify" style={{ textAlign: 'justify' }}>At OpsOdyssey, we ensure assurance in every detail beyond mere inspection. Our commitment to precision and quality delivers reliable solutions that empower your business in today’s fast-paced digital landscape.</p>                                           <div className="footer__newsletter-four footer__newsletter-six">
                                                 <p className="color-white text-subscribe">Subscribe Newsletter</p>
                                                 <form action="#">
                                                     <input type="text" placeholder="e-mail Type . . ." />
@@ -30,12 +29,10 @@ export default function Footer6() {
                                         <h4 className="fw-title">Information</h4>
                                         <div className="footer-link-list">
                                             <ul className="list-wrap">
-                                                <li><Link href="/about">Information</Link></li>
+                                                <li><Link href="/services">Services</Link></li>
                                                 <li><Link href="/about">About us</Link></li>
-                                                <li><Link href="/team">Meet our team</Link></li>
-                                                <li><Link href="/contact">Case stories</Link></li>
-                                                <li><Link href="/blog">Latest news</Link></li>
                                                 <li><Link href="/contact">Contact us</Link></li>
+                                               
                                             </ul>
                                         </div>
                                     </div>
@@ -45,10 +42,7 @@ export default function Footer6() {
                                         <h4 className="fw-title">Top Links</h4>
                                         <div className="footer-link-list">
                                             <ul className="list-wrap">
-                                                <li><Link href="/about">How it’s Work</Link></li>
-                                                <li><Link href="/contact">Partners</Link></li>
-                                                <li><Link href="/contact">Testimonials</Link></li>
-                                                <li><Link href="/contact">Case Studies</Link></li>
+                                                {/* <li><Link href="/about">How it’s Work</Link></li> */}
                                                 <li><Link href="/contact">Pricing</Link></li>
                                             </ul>
                                         </div>
@@ -62,7 +56,7 @@ export default function Footer6() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="copyright-text-two">
-                                        <p>Copyright © <Link href="/">Apexa</Link> | All Right Reserved</p>
+                                        <p>Copyright © <Link href="/">OpsOdysee</Link> | All Right Reserved</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">

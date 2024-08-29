@@ -27,8 +27,8 @@ export default function Services8() {
                                     </svg>
                                 </div>
                                 <div className="card-info">
-                                    <h5>IT Consulting</h5>
-                                    <p>Beauis utter enim amet lacus ornare ullamcorper Praesent neque purus rhoncus.</p>
+                                    <h5>Speedy Product Solutions</h5>
+                                    <p>Combining native and hybrid with cross-platform, agile, and DevOps for impactful solutions</p>
                                 </div>
                             </div>
                         </div>
@@ -55,8 +55,8 @@ export default function Services8() {
                                     </svg>
                                 </div>
                                 <div className="card-info">
-                                    <h5>Network Design</h5>
-                                    <p>Beauis utter enim amet lacus ornare ullamcorper Praesent neque purus rhoncus.</p>
+                                    <h5>Precise Delivery Predictions</h5>
+                                    <p>Accurate Delivery Predictions Using Monte Carlo for Faster, Reliable Milestones</p>
                                 </div>
                             </div>
                         </div>
@@ -68,8 +68,8 @@ export default function Services8() {
                                     </svg>
                                 </div>
                                 <div className="card-info">
-                                    <h5>Software Dev</h5>
-                                    <p>Beauis utter enim amet lacus ornare ullamcorper Praesent neque purus rhoncus.</p>
+                                    <h5>Value That Fits Your Needs</h5>
+                                    <p>Guarantee value with Continuous Discovery and Delivery, meeting user needs</p>
                                 </div>
                             </div>
                         </div>
@@ -91,8 +91,8 @@ export default function Services8() {
                                     </svg>
                                 </div>
                                 <div className="card-info">
-                                    <h5>IT Training</h5>
-                                    <p>Beauis utter enim amet lacus ornare ullamcorper Praesent neque purus rhoncus.</p>
+                                    <h5>Stay Ahead with Technology</h5>
+                                    <p>Outpace competitors with cutting-edge GenAI, AI, and data engineering.</p>
                                 </div>
                             </div>
                         </div>

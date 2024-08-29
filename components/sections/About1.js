@@ -14,14 +14,14 @@ export default function About1() {
                                 <div className="shape">
                                     <img src="/assets/img/images/about_shape01.png" alt="" />
                                 </div>
-                                <div className="experience-year">
+                                {/* <div className="experience-year">
                                     <div className="icon">
                                         <i className="flaticon-trophy" />
                                     </div>
                                     <div className="content">
                                         <h6 className="circle rotateme">Years Of - Experience 25 -</h6>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -65,17 +65,17 @@ export default function About1() {
                                     </div>
                                     <Link href="/about" className="btn btn-two">Read More</Link>
                                 </div>
-                                <div className="about-shape-wrap">
+                                {/* <div className="about-shape-wrap">
                                     <img src="/assets/img/images/about_shape03.png" alt="" />
                                     <img src="/assets/img/images/about_shape04.png" alt="" className="ribbonRotate" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="about-left-shape">
+                {/* <div className="about-left-shape">
                     <img src="/assets/img/images/about_shape02.png" alt="" />
-                </div>
+                </div> */}
             </section>
         </>
     )

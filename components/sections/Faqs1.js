@@ -30,7 +30,7 @@ export default function Faqs1() {
                         <div className="col-lg-6 mb-30">
                             <div className="box-need-help">
                                 <img src="/assets/img/home6/img-faq.png" />
-                                <div className="box-text-need-help">
+                                {/* <div className="box-text-need-help">
                                     <svg width={36} height={36} viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M12.2563 21.887H19.8349C20.1467 21.887 20.3998 21.6339 20.3998 21.3221C20.3998 21.0103 20.1467 20.7572 19.8349 20.7572H12.2563C11.9445 20.7572 11.6914 21.0103 11.6914 21.3221C11.6914 21.6339 11.9444 21.887 12.2563 21.887Z" fill="#F7A400" />
                                         <path fillRule="evenodd" clipRule="evenodd" d="M17.0264 21.3221V34.9233C17.0264 35.2351 17.2795 35.4882 17.5913 35.4882C17.9027 35.4882 18.1562 35.2351 18.1562 34.9233V21.3221C18.1562 21.0102 17.9027 20.7571 17.5913 20.7571C17.2795 20.7571 17.0264 21.0102 17.0264 21.3221Z" fill="#F7A400" />
@@ -46,43 +46,66 @@ export default function Faqs1() {
                                     </svg>
                                     <h6>Need more help?</h6>
                                     <p>Feeling inquisitive? Have a read through some of our FAQs or <a href="#">contact</a> our Supporters for help</p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-6 mb-30">
                             <div className="box-faq-right">
                                 <h1 className="title tg-element-title mb-20">Frequently asked questions</h1>
-                                <p className="tg-element-title mb-40">Our power of choice is untrammelled and when nothing preventsbeing able to do what we like best every pleasure.</p>
+                                {/* <p className="tg-element-title mb-40">Our power of choice is untrammelled and when nothing preventsbeing able to do what we like best every pleasure.</p> */}
                                 <div className="block-faqs">
                                     <div className="accordion wow fadeInUp" id="accordionFAQ">
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(1)}>
                                                 <button className={isActive.key == 1 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                    Where is my order? Quisque molestie
+                                                What technologies do you use?
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Provide a step-by-step guide on how users can browse and book travel services on your platform. Include information on searching for destinations, selecting dates, choosing accommodation, and completing the booking process. Mention any special features or tools that can help users find the best deals.</div>
+                                                <div className="accordion-body">We employ a range of technologies, from modern frameworks and tools for the development of web and mobile applications to cloud platforms and advanced AI solutions, depending on the specific needs of the project.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(2)}>
                                                 <button className={isActive.key == 2 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                    How can I return an item purchased online?
+                                                 How do I reach OpsOdyssey?
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Provide a step-by-step guide on how users can browse and book travel services on your platform. Include information on searching for destinations, selecting dates, choosing accommodation, and completing the booking process. Mention any special features or tools that can help users find the best deals.</div>
+                                                <div className="accordion-body">You can reach us at the following info e-mail: info@opsodyssey.com, give us a call at: (92)3004382099, or fill out the form on our website. We will be delighted to discuss your project with you.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(3)}>
                                                 <button className={isActive.key == 3 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                    Can I cancel or change my order?
+                                                Do You Offer Ongoing Support and Maintenance?
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Provide a step-by-step guide on how users can browse and book travel services on your platform. Include information on searching for destinations, selecting dates, choosing accommodation, and completing the booking process. Mention any special features or tools that can help users find the best deals.</div>
+                                                <div className="accordion-body">Yes, we do support you continuously and perform post-launch maintenance services for the systems developed by us. Our people will be more than happy to attend to any issues or updates after the launch.</div>
+                                            </div>
+                                        </div>
+                                       
+                                        <div className="accordion-item">
+                                            <h5 className="accordion-header" onClick={() => handleClick(4)}>
+                                                <button className={isActive.key == 4 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
+                                                What is the average length of a project?
+                                                </button>
+                                            </h5>
+                                            <div className={isActive.key == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
+                                                <div className="accordion-body">The length of a project is determined by its complexity and scope. We offer an accurate timeline within the planning phase. And we work hard to deliver all work on time without compromising on quality and speed.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h5 className="accordion-header" onClick={() => handleClick(5)}>
+                                                <button className={isActive.key == 5 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
+                                                Do you render consultation services?
+                                                </button>
+                                            </h5>
+                                            <div className={isActive.key == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
+                                                <div className="accordion-body">Yes, we render technology consulting so you can make better decisions about tech strategies, systems, and implementation.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

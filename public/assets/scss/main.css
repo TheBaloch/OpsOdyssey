@@ -2820,6 +2820,7 @@ textarea {
 }
 .about__area-four {
   padding: 120px 0;
+  padding-bottom: 0;
 }
 @media (max-width: 991.98px) {
   .about__area-four {
@@ -3014,10 +3015,12 @@ textarea {
 @media (max-width: 991.98px) {
   .about__img-wrap-four {
     margin-bottom: 50px;
+  
   }
 }
 .about__img-wrap-four > img {
   border-radius: 10px;
+ 
 }
 .about__img-wrap-four > img:nth-child(2) {
   border-radius: 10px;
@@ -3062,6 +3065,7 @@ textarea {
   position: relative;
   padding-bottom: 75px;
   margin-bottom: 25px;
+
 }
 .about__img-wrap-five img {
   border-radius: 10px;
@@ -3377,7 +3381,6 @@ textarea {
   }
 }
 .about__list-box .list-wrap li {
-  display: flex;
   align-items: flex-start;
   font-size: 20px;
   font-weight: 500;
@@ -8837,6 +8840,7 @@ textarea {
 /*=============================
     18. Call-back
 ===============================*/
+
 .call-back-area {
   background: var(--tg-heading-color);
   padding: 100px 0 85px;
@@ -8844,6 +8848,7 @@ textarea {
   z-index: 1;
   overflow: hidden;
 }
+
 .call-back-area-two {
   background: transparent;
   padding: 0;

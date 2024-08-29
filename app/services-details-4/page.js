@@ -6,7 +6,7 @@ export default function ServicesDetails4() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Service Details">
+            <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="Service Details">
                 <div>
                     <section className="services__details-area">
                         <div className="container">

@@ -126,6 +126,7 @@ export default function About4() {
                         </div>
                     </section>
                     {/* services-area-end */}
+                    +.
                     {/* testimonial-area */}
                     <section className="testimonial__area-two">
                         <div className="container">
@@ -210,6 +211,7 @@ export default function About4() {
                             <img src="/assets/img/images/h2_testimonial_shape.png" alt="" data-aos="fade-up" data-aos-delay={400} />
                         </div>
                     </section>
+                    
                     {/* testimonial-area-end */}
                     {/* pricing-area */}
                     <section className="pricing__area pricing__bg" data-background="/assets/img/bg/pricing_bg.jpg">

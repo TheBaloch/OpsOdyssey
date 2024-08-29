@@ -25,8 +25,8 @@ export default function Project3() {
                     <div className="row justify-content-center">
                         <div className="col-xl-7 col-lg-8">
                             <div className="section-title text-center mb-50 tg-heading-subheading animation-style3">
-                                <span className="sub-title">OUR PROJECTS</span>
-                                <h2 className="title tg-element-title">We Provide Solutions To <br /> Big  Small Organizations For Work</h2>
+                                <span className="sub-title">OUR WORK</span>
+                                <h2 className="title tg-element-title">Review our Project Portfolio</h2>
                             </div>
                         </div>
                     </div>

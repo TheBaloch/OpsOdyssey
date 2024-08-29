@@ -12,7 +12,7 @@ export default function Counter2() {
                                     <i className="flaticon-trophy" />
                                 </div>
                                 <div className="content">
-                                    <h2 className="count"><CounterUp count={45} />+</h2>
+                                    <h2 className="count"><CounterUp count={23} />+</h2>
                                     <p>Successfully <br /> Completed Projects</p>
                                 </div>
                             </div>
@@ -23,7 +23,7 @@ export default function Counter2() {
                                     <i className="flaticon-time" />
                                 </div>
                                 <div className="content">
-                                    <h2 className="count"><CounterUp count={25} />+</h2>
+                                    <h2 className="count"><CounterUp count={10} />+</h2>
                                     <p>Years of Experiences <br /> To Run This Company</p>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ export default function Counter2() {
                                     <i className="flaticon-happy" />
                                 </div>
                                 <div className="content">
-                                    <h2 className="count"><CounterUp count={92} />K</h2>
+                                    <h2 className="count"><CounterUp count={23} /></h2>
                                     <p>Satisfied <br /> 100% Our Clients</p>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ export default function Counter2() {
                                     <i className="flaticon-china" />
                                 </div>
                                 <div className="content">
-                                    <h2 className="count"><CounterUp count={19} />+</h2>
+                                    <h2 className="count"><CounterUp count={3} />+</h2>
                                     <p>All Over The World <br /> We Are Available</p>
                                 </div>
                             </div>

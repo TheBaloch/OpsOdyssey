@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  metabase: new URL("https://within28days.com/"),
+  metadataBase: new URL("https://within28days.com/"),
   title: "Related Websites - BuzzNFinds & Blog.NattyNYC",
   description:
     "Explore the related websites including BuzzNFinds for tech trends and Blog.NattyNYC for fashion and lifestyle content. Discover more about these sites and their focus areas.",

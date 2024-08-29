@@ -71,6 +71,22 @@ const Page = () => {
           perspectives on modern fashion trends, making it a valuable resource
           for anyone looking to elevate their style.
         </p>
+        <Link
+          href="https://opsodyssey.com"
+          className="text-teal-500 underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          OpsOdyssey.com
+        </Link>{" "}
+        <Link
+          href="https://imguru.ae"
+          className="text-teal-500 underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ImGuru.ae
+        </Link>{" "}
       </section>
     </div>
   );

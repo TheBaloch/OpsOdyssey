@@ -4591,6 +4591,7 @@ textarea {
     margin-bottom: 30px;
   }
 }
+
 .services__details-content > .title {
   margin-bottom: 22px;
   font-size: 40px;
@@ -4609,9 +4610,11 @@ textarea {
 }
 .services__details-content > p {
   margin-bottom: 20px;
+  text-align: justify;
 }
 .services__details-content > p.last-info {
   margin-bottom: 0;
+  text-align: justify;
 }
 .services__details-content .title-two {
   margin-bottom: 20px;

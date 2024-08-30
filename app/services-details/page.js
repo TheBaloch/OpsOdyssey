@@ -1,148 +1,142 @@
-import VideoPopup from "@/components/elements/PopupVideo"
+import Faq from "@/components/Faq/Faq"
 import Layout from "@/components/layout/Layout"
 import BrandActiveSlider from "@/components/slider/BrandActiveSlider"
-import Link from "next/link"
+import Tech from "@/components/Tech/Tech"
 
 export default function ServicesDetails() {
     return (
         <>
             <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="Service Details">
                 <div>
-                    <section className="services__details-area">
+                    <section className="about__area-four pb-0">
+                    <div className="container">
+                       <div className="row align-items-center justify-content-center mt-0">
+                        <div className="col-lg-9 mb-35">
+                              <div className="about__content-four ">
+                                <div className="section-title mb-30">
+                                    <h2 className="title">Mobile Application Development</h2>
+                                </div>
+                                <div>
+                                <p className="text-lg leading-relaxed indent-8 mb-6">Our mobile app development service converts your idea into reality with a team of skilled developers, talented designers, and meticulous testers. We are expert services in interactive, high-performance application developments for iOS and Android platforms. Our approach focuses on delivering exceptional user experiences and leveraging innovative design principles that meet your business needs.We provide end-to-end solutions, crafted with care, from conceptualization to deployment, to drive user engagement and prop remarkable business growth. We know exactly how to understand your requirements, make intuitive interface designs, and develop robust functionalities so that an app will make it big in the competitive market.</p>                          
+                                </div>
+                                
+                                 
+                              </div>
+                        </div>
+                        <div className="col-lg-3 col-md-9 col-sm-10 text-end mb-35">
+                            <div className="about__img-wrap3-home8">
+                                <img src="assets/img/icon/appdev2.png" alt="" />
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    </section>
+                    <div className="brand__area-six mt-0 mb-5 pt-0 pb-4">
                         <div className="container">
+                            <div className="pb-50">
+                            <h1 className="title  ">Technology Stack</h1>
+                            </div>
+                            <div className="swiper-container brand-active">
+                            <Tech />
+                            </div>
+                        </div>
+                    </div>
+                    <section className="about__area-four pb-0 pt-0">
+                    <div className="container">
+                       <div className="row align-items-center justify-content-center mt-0">
+                        <div className="col-lg-10 mb-35">
+                            <div className="about__content-four ">
+                            <div className="section-title mb-25">
+                                    <h2 className="title wow ">Why Choose OpsOdyssey for Mobile App Development?</h2>
+                                </div>
+                               
+                                    <div className="about__list-box " >
+                                        <ul className="list-wrap mb-4">
+                                            <li><i className="flaticon-arrow-button" /> Our skilled developers and designers are here to provide top-quality web and mobile solutions.</li>
+                                            <li><i className="flaticon-arrow-button" />Benefit from ongoing, transparent communication that keeps you informed at every step</li>
+                                            <li><i className="flaticon-arrow-button" />Enjoy a dedicated team’s full commitment to meeting your project goals with focus and precision.</li>
+                                            
+                                        </ul>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-9 col-sm-10 text-end mb-35">
+                            <div className="about__img-wrap3-home8">
+                                <img src="assets/img/icon/appdev4.png" alt="" />
+                                
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    </section>
+                   
+                    <section className="services__details-area  pt-0 mt-0 ">
+                        <div className="container ">
                             <div className="services__details-wrap">
                                 <div className="row">
-                                    <div className="col-70 order-0 order-lg-2">
-                                        <div className="services__details-thumb">
-                                            <img src="/assets/img/services/services_details01.jpg" alt="" />
-                                        </div>
+                                    
+                                    <div className=" order-0 order-lg-2">                                     
                                         <div className="services__details-content">
-                                            <h2 className="title">Modern Business Investment Planning</h2>
-                                            <p>eed a little help from our friends from time to time. Although we offer the one-stop convenience of annery integrated range of legal, financial services under one roof, there are occasions when our clients areaneed specia- list advice beyond the scope of our own expertise. That’s why we’ve developed close working relationships with a number of strategic partner.</p>
-                                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen bookhas survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchan galley of type and scrambled it to make a type specimen book.</p>
-                                            <div className="services__details-list">
+                                            <section>
+                                                {/* <Counter2 /> */}
+                                            <div className="services__details-list pt-5">
                                                 <div className="row">
+                                                <div className="section-title text-center mb-40 ">
+                                                       <span className="sub-title">WHAT WE OFFER</span>
+                                                       <h2 className="title">Our Mobile App Services Charter</h2>
+                                                </div>
+                                               
                                                     <div className="col-md-6">
                                                         <div className="services__details-list-box">
                                                             <div className="icon">
-                                                                <i className="flaticon-life-insurance" />
+                                                              <img src="assets/img/icon/android.png" />
                                                             </div>
                                                             <div className="content">
-                                                                <h4 className="title">Extend Coverage</h4>
-                                                                <p>We successfully copey withtks arying mplexity aweprguara nd regularly master</p>
+                                                                <h4 className="title">Android App Design and Development</h4>
+                                                                <p>Our team of experts is one of the finest in the field of Android application development, whether on smartphones, tablets, Android TV, or Wear OS, using JAVA for Kotlin to develop robust applications.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="services__details-list-box">
                                                             <div className="icon">
-                                                                <i className="flaticon-insurance-agent" />
+                                                                <img src="assets/img/icon/ios.png" />
                                                             </div>
                                                             <div className="content">
-                                                                <h4 className="title">Modern Insurance</h4>
-                                                                <p>We successfully copey withtks arying mplexity aweprguara nd regularly master</p>
+                                                                <h4 className="title">iOS Application Design and Development</h4>
+                                                                <p>OpsOdyssey specializes in iOS application development; we build secure and reliable applications for Apple devices. We contrive a superior user experience from concept to launch with the use of Objective-C and Swift.</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen bookhas survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchan galley of type and scrambled it to make a type specimen book.</p>
-                                            <div className="services__details-inner">
-                                                <div className="row gutter-24 align-items-center">
-                                                    <div className="col-44">
-                                                        <div className="services__details-inner-img">
-                                                            <img src="/assets/img/services/services_details_inner01.jpg" alt="" />
-                                                            <VideoPopup />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-56">
-                                                        <div className="services__details-inner-content">
-                                                            <h4 className="title">Raise capital faster  negotiate <br /> on your own terms</h4>
-                                                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen bookhas survived not only five centuries.</p>
-                                                            <div className="about__list-box">
-                                                                <ul className="list-wrap">
-                                                                    <li><i className="flaticon-arrow-button" />Business Growth</li>
-                                                                    <li><i className="flaticon-arrow-button" />Analysis  Research</li>
-                                                                    <li><i className="flaticon-arrow-button" />100% Secure</li>
-                                                                </ul>
+                                                    <div className="col-md-6">
+                                                        <div className="services__details-list-box">
+                                                            <div className="icon">
+                                                            <img src="assets/img/icon/hybrid.png" />
+                                                            </div>
+                                                            <div className="content">
+                                                                <h4 className="title">Hybrid App Design and Development</h4>
+                                                                <p>We create high-quality hybrid apps using React Native, Xamarin, and Ionic with a cross-platform compatibility approach. Our development includes third-party integrations for more intuitive and interactive effects.</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                    <div className="col-md-6">
+                                                        <div className="services__details-list-box">
+                                                            <div className="icon">
+                                                               <img src="assets/img/icon/designstart.png" />
+                                                            </div>
+                                                            <div className="content">
+                                                                <h4 className="title">Mobile App Strategy and Consulting</h4>
+                                                                <p>Our strategy consulting services cover conceptualization to the real-world implementation of mobile applications. We begin with comprehensive market research and guide you through defining your app’s goals.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                 </div>
                                             </div>
-                                            <p className="last-info">when an unknown printer took a galley of type and scrambled it to make a type specimen bookhas survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchan galley of type and scrambled it to make a type specimen book.</p>
+                                            </section>
+                                            {/* faq start */}
                                         </div>
-                                    </div>
-                                    <div className="col-30">
-                                        <aside className="services__sidebar">
-                                            <div className="sidebar__widget sidebar__widget-two">
-                                                <div className="sidebar__cat-list-two">
-                                                    <ul className="list-wrap">
-                                                        <li><Link href="/services-details">Investment Planning <i className="flaticon-arrow-button" /></Link></li>
-                                                        <li><Link href="/services-details">Strategic marketing <i className="flaticon-arrow-button" /></Link></li>
-                                                        <li><Link href="/services-details">Insights  analytics <i className="flaticon-arrow-button" /></Link></li>
-                                                        <li><Link href="/services-details">Business consulting <i className="flaticon-arrow-button" /></Link></li>
-                                                        <li><Link href="/services-details">Financial Advisory <i className="flaticon-arrow-button" /></Link></li>
-                                                        <li><Link href="/services-details">Market Research <i className="flaticon-arrow-button" /></Link></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="sidebar__widget">
-                                                <h4 className="sidebar__widget-title">Brochure</h4>
-                                                <div className="sidebar__brochure">
-                                                    <p>when an unknown printer took ga lley offer typey anddey.</p>
-                                                    <Link href="/assets/img/services/services_details01.jpg" target="_blank" download><i className="far fa-file-pdf" />PDF. Download</Link>
-                                                    <Link href="/assets/img/services/services_details01.jpg" target="_blank" download><i className="far fa-file-alt" />DOC. Download</Link>
-                                                </div>
-                                            </div>
-                                            <div className="sidebar__widget">
-                                                <h4 className="sidebar__widget-title">Latest Posts</h4>
-                                                <div className="sidebar__post-list">
-                                                    <div className="sidebar__post-item">
-                                                        <div className="sidebar__post-thumb">
-                                                            <Link href="/blog-details"><img src="/assets/img/blog/sb_post01.jpg" alt="" /></Link>
-                                                        </div>
-                                                        <div className="sidebar__post-content">
-                                                            <h5 className="title"><Link href="/blog-details">deno weuine easiure and praising</Link></h5>
-                                                            <span className="date"><i className="flaticon-time" />Sep 15, 2024</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="sidebar__post-item">
-                                                        <div className="sidebar__post-thumb">
-                                                            <Link href="/blog-details"><img src="/assets/img/blog/sb_post02.jpg" alt="" /></Link>
-                                                        </div>
-                                                        <div className="sidebar__post-content">
-                                                            <h5 className="title"><Link href="/blog-details">know how to pursue pleasure rationally</Link></h5>
-                                                            <span className="date"><i className="flaticon-time" />Sep 15, 2024</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="sidebar__post-item">
-                                                        <div className="sidebar__post-thumb">
-                                                            <Link href="/blog-details"><img src="/assets/img/blog/sb_post03.jpg" alt="" /></Link>
-                                                        </div>
-                                                        <div className="sidebar__post-content">
-                                                            <h5 className="title"><Link href="/blog-details">there anyone who loves</Link></h5>
-                                                            <span className="date"><i className="flaticon-time" />Sep 15, 2024</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="sidebar__post-item">
-                                                        <div className="sidebar__post-thumb">
-                                                            <Link href="/blog-details"><img src="/assets/img/blog/sb_post04.jpg" alt="" /></Link>
-                                                        </div>
-                                                        <div className="sidebar__post-content">
-                                                            <h5 className="title"><Link href="/blog-details">deno weuine easiure and praising</Link></h5>
-                                                            <span className="date"><i className="flaticon-time" />Sep 15, 2024</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="sidebar__widget sidebar__widget-two">
-                                                <div className="sidebar__contact">
-                                                    <h2 className="title">If You Need Any Help Contact With Us</h2>
-                                                    <Link href="tel:0123456789" className="btn"><i className="flaticon-phone-call" />+91 705 2101 786</Link>
-                                                </div>
-                                            </div>
-                                        </aside>
+                                        <Faq/>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +144,7 @@ export default function ServicesDetails() {
                     </section>
                     {/* services-details-area-end */}
                     {/* brand-area */}
-                    <div className="brand__area-six">
+                    <div className="brand__area-six mt-0 pt-0">
                         <div className="container">
                             <div className="swiper-container brand-active">
                                 <BrandActiveSlider />

@@ -14,7 +14,8 @@ export default function Footer6() {
                                             <div className="fw-logo mb-25">
                                                 <Link href="/"><img src="/assets/img/logo/w-logo.png" alt="" /></Link>
                                             </div>
-                                            <p className="color-white mb-40 text-justify" style={{ textAlign: 'justify' }}>At OpsOdyssey, we ensure assurance in every detail beyond mere inspection. Our commitment to precision and quality delivers reliable solutions that empower your business in today’s fast-paced digital landscape.</p>                                           <div className="footer__newsletter-four footer__newsletter-six">
+                                            <p className="color-white mb-40 text-justify" style={{ textAlign: 'justify' }}>At OpsOdyssey, we ensure assurance in every detail beyond mere inspection. Our commitment to precision and quality delivers reliable solutions that empower your business in today’s fast-paced digital landscape.</p>                                         
+                                              <div className="footer__newsletter-four footer__newsletter-six">
                                                 <p className="color-white text-subscribe">Subscribe Newsletter</p>
                                                 <form action="#">
                                                     <input type="text" placeholder="e-mail Type . . ." />

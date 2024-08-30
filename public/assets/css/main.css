@@ -3133,7 +3133,7 @@ textarea {
   padding: 90px 0;
 }
 .brand__area-six {
-  background: var(--tg-color-gray-6);
+ 
   padding: 77px 0;
 }
 .brand__area-seven {
@@ -3891,7 +3891,7 @@ textarea {
   }
 }
 .about__list-box .list-wrap li {
-  width: 85%;
+  width: 90%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -5549,6 +5549,7 @@ textarea {
 }
 .services__details-list-box .content p {
   margin-bottom: 0;
+  text-align: justify;
 }
 .services__details-list-box:hover .icon i {
   -webkit-transform: rotateY(180deg);

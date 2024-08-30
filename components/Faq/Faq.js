@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 
-export default function Faqs1() {
+export default function Faq() {
     const [isActive, setIsActive] = useState({
         status: false,
         key: "",
@@ -23,14 +23,14 @@ export default function Faqs1() {
     }
     return (
         <>
-            <section className="faqs__area-six">
+            <section className="faqs__area-six pb-4 pt-5">
                 <div className="circle" data-parallax="{&quot;x&quot; : 100 , &quot;y&quot; : 100 }" />
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 mb-30">
+                        {/* <div className="col-lg-6 mb-30">
                             <div className="box-need-help">
                                 <img src="/assets/img/home6/img-faq.png" />
-                                {/* <div className="box-text-need-help">
+                                <div className="box-text-need-help">
                                     <svg width={36} height={36} viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M12.2563 21.887H19.8349C20.1467 21.887 20.3998 21.6339 20.3998 21.3221C20.3998 21.0103 20.1467 20.7572 19.8349 20.7572H12.2563C11.9445 20.7572 11.6914 21.0103 11.6914 21.3221C11.6914 21.6339 11.9444 21.887 12.2563 21.887Z" fill="#F7A400" />
                                         <path fillRule="evenodd" clipRule="evenodd" d="M17.0264 21.3221V34.9233C17.0264 35.2351 17.2795 35.4882 17.5913 35.4882C17.9027 35.4882 18.1562 35.2351 18.1562 34.9233V21.3221C18.1562 21.0102 17.9027 20.7571 17.5913 20.7571C17.2795 20.7571 17.0264 21.0102 17.0264 21.3221Z" fill="#F7A400" />
@@ -46,73 +46,75 @@ export default function Faqs1() {
                                     </svg>
                                     <h6>Need more help?</h6>
                                     <p>Feeling inquisitive? Have a read through some of our FAQs or <a href="#">contact</a> our Supporters for help</p>
-                                </div> */}
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6 mb-30">
+                        </div> */}
+                       
                             <div className="box-faq-right">
-                           
-                                <h1 className="title tg-element-title mb-20">Frequently asked questions</h1>
+                            <div className="section-title text-center mb-40">
+                                     <span className="sub-title">FAQS</span>
+                                      <h2 className="title">Frequently asked questions</h2>
+                             </div>
                                 {/* <p className="tg-element-title mb-40">Our power of choice is untrammelled and when nothing preventsbeing able to do what we like best every pleasure.</p> */}
                                 <div className="block-faqs">
                                     <div className="accordion wow fadeInUp" id="accordionFAQ">
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(1)}>
                                                 <button className={isActive.key == 1 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                What technologies do you use?
+                                                What is the process of mobile application development?
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">We employ a range of technologies, from modern frameworks and tools for the development of web and mobile applications to cloud platforms and advanced AI solutions, depending on the specific needs of the project.</div>
+                                                <div className="accordion-body">It generally consists of planning, design, development, testing, and deployment. It takes in understanding the requirements of the application, making the wireframe and prototype of it, coding the application, and then testing it thoroughly before rollout.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(2)}>
                                                 <button className={isActive.key == 2 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                 How do I reach OpsOdyssey?
+                                                How much does it cost to develop a mobile app?
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">You can reach us at the following info e-mail: info@opsodyssey.com, give us a call at: (92)3004382099, or fill out the form on our website. We will be delighted to discuss your project with you.</div>
+                                                <div className="accordion-body">The cost of developing a mobile application would depend on many factors including, but not limited to, app complexity, features, and platforms. Simpler applications can be cheaper while complex ones with advanced features targeting multiple platforms might be more expensive.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(3)}>
                                                 <button className={isActive.key == 3 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                Do You Offer Ongoing Support and Maintenance?
+                                                On which platforms can one develop mobile apps? 
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Yes, we do support you continuously and perform post-launch maintenance services for the systems developed by us. Our people will be more than happy to attend to any issues or updates after the launch.</div>
+                                                <div className="accordion-body">The development can be done on iOS, Android, or as cross-platform applications by using frameworks such as React Native and Xamarin, among others, depending on your target audience and needs.</div>
                                             </div>
                                         </div>
                                        
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(4)}>
                                                 <button className={isActive.key == 4 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                What is the average length of a project?
+                                                Is there support and maintenance after the launch? 
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">The length of a project is determined by its complexity and scope. We offer an accurate timeline within the planning phase. And we work hard to deliver all work on time without compromising on quality and speed.
+                                                <div className="accordion-body">Yes, we do provide after-launch support and maintenance to handle problems, manage updates, or make changes that will keep the app up and running and exactly as the users will want it.
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h5 className="accordion-header" onClick={() => handleClick(5)}>
                                                 <button className={isActive.key == 5 ? "accordion-button text-heading-5" : "accordion-button text-heading-5 collapsed"} >
-                                                Do you render consultation services?
+                                                What's the difference between application design and development?
                                                 </button>
                                             </h5>
                                             <div className={isActive.key == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <div className="accordion-body">Yes, we render technology consulting so you can make better decisions about tech strategies, systems, and implementation.
+                                                <div className="accordion-body">Application design focuses on creating the user interface and experience (UI/UX), while development involves coding and implementing the app’s functionality.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>

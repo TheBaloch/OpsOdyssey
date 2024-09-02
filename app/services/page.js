@@ -59,12 +59,12 @@ export default function Services() {
                                                 <img src="assets/img/icon/seo.png" />
                                             </div>
                                             <div className="services__item-top-title">
-                                                <h2 className="title"><Link href="/services-details">SEO</Link></h2>
+                                                <h2 className="title"><Link href="/seo">SEO</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey provides top search engine optimization and the one-stop solution for all SEO needs. We have helped hundreds of satisfied customers since then by using our experts for great results and increasing their visibility online.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/seo" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -75,12 +75,12 @@ export default function Services() {
                                             <img src="assets/img/icon/uiux.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Latest UI/UX Design</Link></h2>
+                                                <h2 className="title"><Link href="/latest-ui-ux">Latest UI/UX Design</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>We deliver top-quality, creative UI/UX designs and offering the best services and we serve the best there is in town. Our designs secure a smooth customer experience that will boost interaction and fulfillment with every visitor to your site.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/latest-ui-ux" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                     

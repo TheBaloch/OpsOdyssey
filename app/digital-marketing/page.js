@@ -1,12 +1,13 @@
-import Faq from "@/components/Faq/Faq"
+import Faq1 from "@/components/Faq1/Faq1"
 import Layout from "@/components/layout/Layout"
 import BrandActiveSlider from "@/components/slider/BrandActiveSlider"
 import Tech from "@/components/Tech/Tech"
+import Link from "next/link"
 
-export default function ServicesDetails() {
+export default function Page() {
     return (
         <>
-            <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="Service Details">
+                    <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="Service Details">
                 <div>
                     <section className="about__area-four pb-0">
                     <div className="container">
@@ -14,10 +15,10 @@ export default function ServicesDetails() {
                         <div className="col-lg-9 mb-35">
                               <div className="about__content-four ">
                                 <div className="section-title mb-30">
-                                    <h2 className="title">Mobile Application Development</h2>
+                                    <h2 className="title">Digital Marketing</h2>
                                 </div>
                                 <div>
-                                <p className="text-lg leading-relaxed indent-8 mb-6">Our mobile app development service converts your idea into reality with a team of skilled developers, talented designers, and meticulous testers. We are expert services in interactive, high-performance application developments for iOS and Android platforms. Our approach focuses on delivering exceptional user experiences and leveraging innovative design principles that meet your business needs.We provide end-to-end solutions, crafted with care, from conceptualization to deployment, to drive user engagement and prop remarkable business growth. We know exactly how to understand your requirements, make intuitive interface designs, and develop robust functionalities so that an app will make it big in the competitive market.</p>                          
+                                <p className="text-lg leading-relaxed indent-8 mb-6">Unlock your business's fullest potential with our handpicked team of seasoned digital marketers, innovative strategists, and data-driven experts. We offer bespoke solutions that cater to growing your brand visibility, ensuring an immense increase in user engagement and driving business growth tremendously. Be it maximizing your online presence or generating leads, we make sure your brand gets positioned to stand out in the competitive digital scenario.Our team is great at understanding your target audience, knowing what's next in marketing, and constructing a data-driven strategy that will deliver you real, measurable results across multiple touchpoints. We focus on providing impactful outcomes that enable you to connect with your customers, grow your brand, and achieve continued success.</p>                          
                                 </div>
                                 
                                  
@@ -25,7 +26,7 @@ export default function ServicesDetails() {
                         </div>
                         <div className="col-lg-3 col-md-9 col-sm-10 text-end mb-35">
                             <div className="about__img-wrap3-home8">
-                                <img src="assets/img/icon/appdev2.png" alt="" />
+                                <img src="assets/img/icon/digital.png" alt="" />
                             </div>
                         </div>
                        </div>
@@ -47,14 +48,14 @@ export default function ServicesDetails() {
                         <div className="col-lg-10 mb-35">
                             <div className="about__content-four ">
                             <div className="section-title mb-25">
-                                    <h2 className="title wow ">Why Choose OpsOdyssey for Mobile App Development?</h2>
+                                    <h2 className="title wow ">Why Choose OpsOdyssey for Digital Marketing?</h2>
                                 </div>
                                
                                     <div className="about__list-box " >
                                         <ul className="list-wrap mb-4">
-                                            <li><i className="flaticon-arrow-button" /> Our skilled developers and designers are here to provide top-quality web and mobile solutions.</li>
-                                            <li><i className="flaticon-arrow-button" />Benefit from ongoing, transparent communication that keeps you informed at every step</li>
-                                            <li><i className="flaticon-arrow-button" />Enjoy a dedicated team’s full commitment to meeting your project goals with focus and precision.</li>
+                                            <li><i className="flaticon-arrow-button" /> Having worked on many end-to-end digital marketing campaigns, we pride ourselves on having the knowledge and expertise to effectively grow your brand with state-of-the-art techniques and strategies that will keep you at the edge in the market.</li>
+                                            <li><i className="flaticon-arrow-button" />We believe in open and continuous lines of communication so that our efforts are aligned with the particular business objectives. You're kept continuously in the loop-informed in every step in the process. </li>
+                                            <li><i className="flaticon-arrow-button" />The main focus of our team is to ensure that maximum conversion and ROI is achieved. Every campaign run is carefully optimized to ensure your business sees real, measurable results that actually help in contributing toward the long-term success of a business.</li>
                                             
                                         </ul>
                                     </div>
@@ -63,7 +64,7 @@ export default function ServicesDetails() {
                         </div>
                         <div className="col-lg-2 col-md-9 col-sm-10 text-end mb-35">
                             <div className="about__img-wrap3-home8">
-                                <img src="assets/img/icon/appdev4.png" alt="" />
+                                <img src="assets/img/icon/digital2.png" alt="" />
                                 
                             </div>
                         </div>
@@ -84,50 +85,51 @@ export default function ServicesDetails() {
                                                 <div className="row">
                                                 <div className="section-title text-center mb-40 ">
                                                        <span className="sub-title">WHAT WE OFFER</span>
-                                                       <h2 className="title">Our Mobile App Services Charter</h2>
+                                                       <h2 className="title">Our Digital Marketing Services Charter</h2>
                                                 </div>
                                                
                                                     <div className="col-md-6">
                                                         <div className="services__details-list-box">
                                                             <div className="icon">
-                                                              <img src="assets/img/icon/android.png" />
+                                                              <img src="assets/img/icon/pp.png" />
                                                             </div>
                                                             <div className="content">
-                                                                <h4 className="title">Android App Design and Development</h4>
-                                                                <p>Our team of experts is one of the finest in the field of Android application development, whether on smartphones, tablets, Android TV, or Wear OS, using JAVA for Kotlin to develop robust applications.</p>
+                                                                <h4 className="title"> Pay Per Click Advertising </h4>
+                                                               
+                                                                <p>Our PPC experts run paid campaigns across Google Ads, Bing, and social channels to optimize your ad spend for maximum ROI and ensure your ads show up in front of the right audience.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="services__details-list-box">
                                                             <div className="icon">
-                                                                <img src="assets/img/icon/ios.png" />
+                                                                <img src="assets/img/icon/content.png" />
                                                             </div>
                                                             <div className="content">
-                                                                <h4 className="title">iOS Application Design and Development</h4>
-                                                                <p>OpsOdyssey specializes in iOS application development; we build secure and reliable applications for Apple devices. We contrive a superior user experience from concept to launch with the use of Objective-C and Swift.</p>
+                                                                <h4 className="title">Content Marketing</h4>
+                                                                <p>We create engaging, high-quality content speaking with your audience and fueling your SEO and social media initiatives. From blogs and articles to videos and infographics-we do it all.                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="services__details-list-box">
                                                             <div className="icon">
-                                                            <img src="assets/img/icon/hybrid.png" />
+                                                            <img src="assets/img/icon/email.png" />
                                                             </div>
                                                             <div className="content">
-                                                                <h4 className="title">Hybrid App Design and Development</h4>
-                                                                <p>We create high-quality hybrid apps using React Native, Xamarin, and Ionic with a cross-platform compatibility approach. Our development includes third-party integrations for more intuitive and interactive effects.</p>
+                                                                <h4 className="title">Email Marketing</h4>
+                                                                <p>Our email marketing services include focused and personalized campaigns aimed at bringing leads in, creating relationships, and turning subscribers into loyal customers.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="services__details-list-box">
                                                             <div className="icon">
-                                                               <img src="assets/img/icon/designstart.png" />
+                                                               <img src="assets/img/icon/affiliate.png" />
                                                             </div>
                                                             <div className="content">
-                                                                <h4 className="title">Mobile App Strategy and Consulting</h4>
-                                                                <p>Our strategy consulting services cover conceptualization to the real-world implementation of mobile applications. We begin with comprehensive market research and guide you through defining your app’s goals.</p>
+                                                                <h4 className="title"> Affiliate marketing</h4>
+                                                                <p>We design and manage affiliate marketing programs that power a network of partners promoting your products. This includes recruitment, relationship management, and optimization to drive sales and maximize revenue.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -136,7 +138,7 @@ export default function ServicesDetails() {
                                             </section>
                                             {/* faq start */}
                                         </div>
-                                        <Faq/>
+                                        <Faq1 />
                                     </div>
                                 </div>
                             </div>
@@ -153,6 +155,7 @@ export default function ServicesDetails() {
                     </div>
                 </div>
             </Layout>
+
         </>
     )
 }

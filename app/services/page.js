@@ -25,12 +25,12 @@ export default function Services() {
 
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Mobile App Development</Link></h2>
+                                                <h2 className="title"><Link href="/mobile-app-dev">Mobile App Development</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>Crucial in today's electronic age are mobile apps. OpsOdyssey's developers design user-friendly, high-quality, and functional apps to satisfy a global audience while assuring top-class performance and wide, impacting reach for their users anywhere in the globe.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/mobile-app-dev" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -42,12 +42,12 @@ export default function Services() {
 
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Digital Marketing</Link></h2>
+                                                <h2 className="title"><Link href="/digital-marketing">Digital Marketing</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey delivers Digital Marketing services, creating simple yet powerful ideas that connect brands with audiences, driving engagement and results. We empower marketing teams to reach their full potential with impactful solutions.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/digital-marketing" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                     

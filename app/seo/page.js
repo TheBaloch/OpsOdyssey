@@ -1,4 +1,3 @@
-import Faq from "@/components/Faq/Faq"
 import Faq2 from "@/components/Faq2/Faq2"
 import Layout from "@/components/layout/Layout"
 import BrandActiveSlider from "@/components/slider/BrandActiveSlider"

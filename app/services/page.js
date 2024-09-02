@@ -92,12 +92,12 @@ export default function Services() {
                                             <img src="assets/img/icon/code.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details"> Website Development</Link></h2>
+                                                <h2 className="title"><Link href="/web-development"> Website Development</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey provides effective solutions for modern web development. Our dedicated team is fully committed to delivering optimal performance and achieving the best possible results for your business, ensuring continuous innovation and growth.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/web-development" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

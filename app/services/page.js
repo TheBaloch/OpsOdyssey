@@ -108,12 +108,12 @@ export default function Services() {
                                             <img src="assets/img/icon/market.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Social Media Marketing</Link></h2>
+                                                <h2 className="title"><Link href="/social-media-marketing">Social Media Marketing</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey offers social media marketing services for small businesses, enterprises, and multi-location companies. Whether you are a startup or a Fortune 500 Company, we have strategies to help your online presence shine.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/social-media-marketing" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

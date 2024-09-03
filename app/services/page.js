@@ -124,12 +124,12 @@ export default function Services() {
                                             <img src="assets/img/icon/scrap.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Web Scraping</Link></h2>
+                                                <h2 className="title"><Link href="/web-scraping">Web Scraping</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey offers advanced web scraping services using efficient techniques to collect, structure, and analyze data from websites with high accuracy,  provide insights according to your business needs with truly effective decisions. </p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/web-scraping" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -140,12 +140,12 @@ export default function Services() {
                                             <img src="assets/img/icon/devops.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">DevOps</Link></h2>
+                                                <h2 className="title"><Link href="/dev-ops">DevOps</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey performs full-cycle DevOps services, which encompass software development and IT operations. We pay great attention to automation, Infrastructure as Code, and monitoring for fast deployment of reliable systems.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/dev-ops" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -136,12 +136,12 @@ export default function About() {
                                             <img src="assets/img/icon/ad.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Mobile App Development</Link></h2>
+                                                <h2 className="title"><Link href="/mobile-app-dev">Mobile App Development</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>Crucial in today's electronic age are mobile apps. OpsOdyssey's developers design user-friendly, high-quality, and functional apps to satisfy a global audience while assuring top-class performance and wide, impacting reach for their users anywhere in the globe.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/mobile-app-dev" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -152,12 +152,12 @@ export default function About() {
                                                 <img src="assets/img/icon/dm.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Digital Marketing</Link></h2>
+                                                <h2 className="title"><Link href="/digital-marketing">Digital Marketing</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey delivers Digital Marketing services, creating simple yet powerful ideas that connect brands with audiences, driving engagement and results. We empower marketing teams to reach their full potential with impactful solutions.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/digital-marketing" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                     
@@ -169,12 +169,12 @@ export default function About() {
                                             <img src="assets/img/icon/seo.png" />
                                             </div>
                                             <div className="services__item-top-title">
-                                                <h2 className="title"><Link href="/services-details">SEO</Link></h2>
+                                                <h2 className="title"><Link href="/seo">SEO</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey provides top search engine optimization and the one-stop solution for all SEO needs. We have helped hundreds of satisfied customers since then by using our experts for great results and increasing their visibility online.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/seo" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -185,12 +185,12 @@ export default function About() {
                                             <img src="assets/img/icon/uiux.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Latest UI/UX Design</Link></h2>
+                                                <h2 className="title"><Link href="/latest-ui-ux">Latest UI/UX Design</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>We deliver top-quality, creative UI/UX designs and offering the best services and we serve the best there is in town. Our designs secure a smooth customer experience that will boost interaction and fulfillment with every visitor to your site.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/latest-ui-ux" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                     
@@ -202,12 +202,12 @@ export default function About() {
                                             <img src="assets/img/icon/code.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details"> Website Development</Link></h2>
+                                                <h2 className="title"><Link href="/web-development"> Website Development</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey provides effective solutions for modern web development. Our dedicated team is fully committed to delivering optimal performance and achieving the best possible results for your business, ensuring continuous innovation and growth.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/web-development" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                     
@@ -219,12 +219,12 @@ export default function About() {
                                             <img src="assets/img/icon/market.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Social Media Marketing</Link></h2>
+                                                <h2 className="title"><Link href="/social-media-marketing">Social Media Marketing</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey offers social media marketing services for small businesses, enterprises, and multi-location companies. Whether you are a startup or a Fortune 500 Company, we have strategies to help your online presence shine.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/social-media-marketing" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -235,12 +235,12 @@ export default function About() {
                                             <img src="assets/img/icon/scrap.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Web Scraping</Link></h2>
+                                                <h2 className="title"><Link href="/web-scraping">Web Scraping</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey offers advanced web scraping services using efficient techniques to collect, structure, and analyze data from websites with high accuracy,  provide insights according to your business needs with truly effective decisions. </p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/web-scraping" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -251,12 +251,12 @@ export default function About() {
                                             <img src="assets/img/icon/devops.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">DevOps</Link></h2>
+                                                <h2 className="title"><Link href="/dev-ops">DevOps</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey performs full-cycle DevOps services, which encompass software development and IT operations. We pay great attention to automation, Infrastructure as Code, and monitoring for fast deployment of reliable systems.</p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/dev-ops" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -267,12 +267,12 @@ export default function About() {
                                             <img src="assets/img/icon/telephony.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Telephony Solution</Link></h2>
+                                                <h2 className="title"><Link href="/telephony-solutions">Telephony Solution</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey provides customized business telephony solutions, including Asterisk, Vicidial, Switch, and GoAutoDial, to simplify communications.Our services utilize  cloud systems for improved connectivity and seamless customer interactions. </p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/telephony-solutions" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

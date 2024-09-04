@@ -156,12 +156,12 @@ export default function Services() {
                                             <img src="assets/img/icon/telephony.png" />
                                             </div>
                                             <div className="services__top-title">
-                                                <h2 className="title"><Link href="/services-details">Telephony Solution</Link></h2>
+                                                <h2 className="title"><Link href="/telephony-solutions">Telephony Solution</Link></h2>
                                             </div>
                                         </div>
                                         <div className="services__content-three">
                                             <p>OpsOdyssey provides customized business telephony solutions, including Asterisk, Vicidial, Switch, and GoAutoDial, to simplify communications.Our services utilize  cloud systems for improved connectivity and seamless customer interactions. </p>
-                                            <Link href="/services-details" className="btn btn-two">Read More</Link>
+                                            <Link href="/telephony-solutions" className="btn btn-two">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

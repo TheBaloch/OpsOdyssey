@@ -11,7 +11,7 @@ export default function Contact() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="contact-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27225.33888415409!2d74.25631970866681!3d31.464582044418357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919015f82b0b86f%3A0x2fcaf9fdeb3d02e6!2sJohar%20Town%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1724751573095!5m2!1sen!2s"   loading="lazy" ></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143322.98903053865!2d-4.397607482690491!3d55.85534953571721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488815562056ceeb%3A0x71e683b805ef511e!2sGlasgow%2C%20UK!5e0!3m2!1sen!2s!4v1725435013582!5m2!1sen!2s" loading="lazy" ></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h4 className="title">Address</h4>
-                                                        <p>159-J Johar Town, Lahore, Pakistan</p>
+                                                        <p>Glassgow, Scotland, UK</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -39,7 +39,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h4 className="title">Phone</h4>
-                                                        <Link href="tel:923004382099">+923004382099</Link>
+                                                        <Link href="tel:44 7453 311868">+44 7453 311868</Link>
                                                     </div>
                                                 </li>
                                                 <li>

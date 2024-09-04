@@ -38,7 +38,7 @@ export default function About() {
                                     <div className="about__content-four">
                                         <div className="section-title mb-20">
                                             <span className="sub-title">Simply Know About</span>
-                                            <h2 className="title">Welcome to OpsOdeyssey!</h2>
+                                            <h2 className="title">Welcome to OpsOdyssey!</h2>
                                         </div>
                                         {/* <div className="about__content-inner-three">
                                             <div className="about__list-box">

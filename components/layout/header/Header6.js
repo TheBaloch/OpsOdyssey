@@ -13,8 +13,8 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, transp
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul className="tg-header__top-info left-side list-wrap">
-                                    <li><i className="flaticon-phone-call" /><Link href="tel:0123456789">+923004382099</Link></li>
-                                    <li><i className="flaticon-pin" /> 159-J Johar Town, Lahore, Pakistan</li>
+                                    <li><i className="flaticon-phone-call" /><Link href="tel:447453311868">+447453311868</Link></li>
+                                    <li><i className="flaticon-pin" />Glassgow, Scotland, UK</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
@@ -101,7 +101,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, transp
                                             <div className="contact-info">
                                                 <ul className="list-wrap">
                                                     <li><Link href="mailto:info@opsodyssey.com">info@opsodyssey.com</Link></li>
-                                                    <li><Link href="923004382099">+923004382099</Link></li>
+                                                    <li><Link href="447453311868">+447453311868</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="social-links">

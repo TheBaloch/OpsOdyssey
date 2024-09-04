@@ -13,11 +13,11 @@ export default function OffcanvusMenu({ isOffcanvus, handleOffcanvus }) {
                 <div className="offCanvas__side-info mb-30">
                     <div className="contact-list mb-30">
                         <h4>Office Address</h4>
-                        <p>159-J Johar Town, Lahore, Pakistan</p>
+                        <p>Glassgow, Scotland, UK</p>
                     </div>
                     <div className="contact-list mb-30">
                         <h4>Phone Number</h4>
-                        <p>+923004382099</p>
+                        <p>+447453311868</p>
                        
                     </div>
                     <div className="contact-list mb-30">

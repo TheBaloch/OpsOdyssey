@@ -8,6 +8,7 @@ import Project3 from "@/components/sections/Project3"
 import Testimonials from "@/components/sections/Testimonials"
 import Project1 from "@/components/sections/Project1"
 import LetConnect from "@/components/LetConnect/LetConnect"
+import BlogPost4 from "@/components/sections/BlogPost4"
 
 export const metadata = {
     title: 'OpsOdyssey',
@@ -22,7 +23,7 @@ export default function Home() {
                 <About5 />
                 <Counter2 />
                 <Testimonials />
-                <Project1 />              
+                <BlogPost4 />           
                 <Brand3 />             
             </Layout>
         </>

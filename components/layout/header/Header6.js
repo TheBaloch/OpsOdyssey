@@ -101,7 +101,6 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, transp
                                             <div className="contact-info">
                                                 <ul className="list-wrap">
                                                     <li><Link href="mailto:info@opsodyssey.com">info@opsodyssey.com</Link></li>
-                                                    <li><Link href="447453311868">+447453311868</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="social-links">

@@ -19,16 +19,7 @@ export default function About() {
                                 <div className="col-lg-6 col-md-9 col-sm-10 ">
                                     <div className="about__img-wrap-four pt-50 mt-50">
                                         <img src="/assets/img/images/webteam.jpg" alt="" />
-                                        {/* <img src="/assets/img/images/webteam2.jpg" alt="" /> */}
-                                        {/* <div className="about__award-box">
-                                            <div className="icon">
-                                                <i className="flaticon-trophy" />
-                                            </div>
-                                            <div className="content">
-                                                <h2 className="title">15+</h2>
-                                                <p>World Best Agency <br /> Award Got</p>
-                                            </div>
-                                        </div> */}
+                                      
                                         <div className="shape">
                                             <img src="/assets/img/images/inner_about_shape.jpg" alt="" className="alltuchtopdown" />
                                         </div>
@@ -40,18 +31,6 @@ export default function About() {
                                             <span className="sub-title">Simply Know About</span>
                                             <h2 className="title">Welcome to OpsOdyssey!</h2>
                                         </div>
-                                        {/* <div className="about__content-inner-three">
-                                            <div className="about__list-box">
-                                                <ul className="list-wrap">
-                                                    <li><i className="flaticon-arrow-button" />Medicare Advantage Plans</li>
-                                                    <li><i className="flaticon-arrow-button" />Analysis  Research</li>
-                                                    <li><i className="flaticon-arrow-button" />100% Secure Money Back</li>
-                                                </ul>
-                                            </div>
-                                            <div className="about__list-img-two">
-                                                <img src="/assets/img/images/about_list_img02.png" alt="" />
-                                            </div>
-                                        </div> */}
                                         <p>We are a dedicated team of web development professionals with a deep passion for crafting exceptional digital experiences that stand out in today’s fast-paced digital landscape. With years of expertise spanning both frontend and backend technologies, we specialize in building robust, scalable, and future-proof solutions. Whether it's creating sleek, user-friendly interfaces or developing powerful backend systems, our approach is always centered on delivering innovative, tailor-made results that perfectly align with your unique business needs.</p>
                                         <Link href="/contact" className="btn ">Contact With Us</Link>
                                     </div>
@@ -278,10 +257,7 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="services__shape-wrap-two">
-                            <img src="/assets/img/services/inner_services_shape01.png" alt="" data-aos="fade-right" data-aos-delay={400} />
-                            <img src="/assets/img/services/inner_services_shape02.png" alt="" data-aos="fade-left" data-aos-delay={400} />
-                        </div> */}
+                        
                    </section>
                    <section className="services__area-seven services__bg-seven pt-4" data-background="/assets/img/bg/h5_services_bg.jpg">
                     <div className="container">
@@ -535,13 +511,6 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    {/* brand-area */}
-
-                    {/* choose-area */}
-                   
-
-                    
-                    {/* choose-area-end */}
                     {/* review-area */}
                     <section className="testimonial__area-two">
                         <div className="container">
@@ -629,12 +598,12 @@ export default function About() {
                             <img src="/assets/img/images/h2_testimonial_shape.png" alt="" data-aos="fade-up" data-aos-delay={400} />
                         </div>
                     </section>
-                    {/* review-area-end */}
+                  `  {/* review-area-end */}
                     {/* team-area */}
                     {/* <section className="team__area-four">
                         <div className="container">
                             <div className="row justify-content-center">
-                                <div className="col-lg-6">
+                                <d`iv className="col-lg-6">
                                     <div className="section-title text-center mb-40">
                                         <span className="sub-title">MEET OUR TEAM</span>
                                         <h2 className="title">Business Expertise Is Here <br /> For You Can Trust</h2>

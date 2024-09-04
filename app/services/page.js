@@ -279,7 +279,7 @@ export default function Services() {
                                             <div className="icon">
                                             <img style={{width:'20px'}} src="/assets/img/icon/layers-outline.svg" />
                                             </div>
-                                            <h4 className="title">Web Hosting Services</h4>
+                                            <h4 className="title">Web Hosting</h4>
                                             <p>Providing hosting solutions and domain registration services for clients' websites.</p>
                                            
                                         </div>

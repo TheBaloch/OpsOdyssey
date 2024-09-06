@@ -4052,7 +4052,6 @@ textarea {
   }
 }
 .services__area-two {
-  background: var(--tg-heading-color);
   padding: 120px 0 90px;
   position: relative;
   z-index: 1;
@@ -4083,7 +4082,7 @@ textarea {
   border-radius: 10px;
   padding: 35px;
   margin-bottom: 30px;
-  background: var(--tg-heading-color);
+
 }
 .services__item-two:hover .services__icon-two {
   transform: rotateY(180deg);

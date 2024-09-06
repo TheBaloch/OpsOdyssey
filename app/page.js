@@ -4,11 +4,8 @@ import Brand3 from "@/components/sections/Brand3"
 import Counter2 from "@/components/sections/Counter2"
 import Slider3 from "@/components/sections/Slider3"
 import About5 from "@/components/sections/About5"
-import Project3 from "@/components/sections/Project3"
 import Testimonials from "@/components/sections/Testimonials"
-import Project1 from "@/components/sections/Project1"
-import LetConnect from "@/components/LetConnect/LetConnect"
-import BlogPost4 from "@/components/sections/BlogPost4"
+import Services2 from "@/components/sections/Services2"
 
 export const metadata = {
     title: 'OpsOdyssey',
@@ -23,7 +20,7 @@ export default function Home() {
                 <About5 />
                 <Counter2 />
                 <Testimonials />
-                <BlogPost4 />           
+                <Services2 />           
                 <Brand3 />             
             </Layout>
         </>

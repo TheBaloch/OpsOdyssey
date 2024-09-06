@@ -16,19 +16,18 @@ export default function Menu() {
                         <li><Link href="/index-8">08. IT Solutions</Link></li>
                     </ul> */}
                 </li>
-                <li ><Link href="/services">Services</Link>
-                    {/* <ul className="sub-menu">
-                        <li><Link href="/services">Business Service</Link></li>
-                        <li><Link href="/services-2">Finance Service</Link></li>
-                        <li><Link href="/services-3">Consulting Service</Link></li>
-                        <li><Link href="/services-4">Insurance Service</Link></li>
-                        <li><Link href="/services-5">Digital agency Service</Link></li>
-                        <li><Link href="/services-details">Service Details One</Link></li>
-                        <li><Link href="/services-details-2">Service Details Two</Link></li>
-                        <li><Link href="/services-details-3">Service Details Three</Link></li>
-                        <li><Link href="/services-details-4">Service Details Four</Link></li>
-                        <li><Link href="/services-details-5">Service Details Five</Link></li>
-                    </ul> */}
+                <li className="menu-item-has-children" ><Link href="/services">Services</Link>
+                    <ul className="sub-menu">
+                        <li><Link href="/web-development">Website Dev</Link></li>
+                        <li><Link href="/mobile-app-dev">Mobile App Dev</Link></li>
+                        <li><Link href="/digital-marketing">Digital Marketing</Link></li>
+                        <li><Link href="/seo">SEO</Link></li>
+                        <li><Link href="/latest-ui-ux">Latest UI/UX</Link></li>
+                        <li><Link href="/social-media-marketing">Social Media Marketing</Link></li>
+                        <li><Link href="/web-scraping">Web Scraping</Link></li>
+                        <li><Link href="/dev-ops">DevOps</Link></li>
+                        <li><Link href="/telephony-solutions">Telephony Solutions</Link></li>
+                    </ul>
                 </li>
                 <li><Link href="/pricing">Pricing</Link>
                     {/* <ul className="sub-menu">

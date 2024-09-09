@@ -57,7 +57,7 @@ export default function Services2() {
                                 </div>
                                 <div className="services__content-two">
                                     <h2 className="title"><Link href="/latest-ui-ux">Latest UI/UX Design</Link></h2>
-                                    <p>We deliver top-quality, innovative UI/UX designs and offer the best services in town. Our designs ensure a seamless and exceptionally smooth customer experience that will significantly enhance interaction and overall satisfaction with every visitor to your site.</p>
+                                    <p>We deliver top-quality, creative UI/UX designs and offering the best services and we serve the best there is in town. Our designs secure a smooth customer experience that will boost interaction and fulfillment with every visitor to your site.</p>
                                     <Link href="/latest-ui-ux" className="btn">Read More</Link>
                                 </div>
                             </div>

@@ -4080,7 +4080,7 @@ textarea {
 .services__item-two {
   border: 2px solid #282B7C;
   border-radius: 10px;
-  padding: 35px;
+  padding: 30px;
   margin-bottom: 30px;
 
 }
@@ -4317,32 +4317,15 @@ textarea {
   color: var(--tg-color-white-default);
 }
 .services__content-two .title {
-  color: var(--tg-color-white-default);
   margin-bottom: 15px;
   font-size: 22px;
   font-weight: 600;
 }
 .services__content-two p {
   margin-bottom: 25px;
-  color: var(--tg-color-gray-2);
+  
 }
-.services__content-two .btn {
-  background: #2E328B;
-  color: #9597C8;
-  padding: 16px 20px;
-}
-.services__content-two .btn::before {
-  background: var(--tg-color-white-default);
-}
-.services__content-two .btn::after {
-  color: var(--tg-color-white-default);
-}
-.services__content-two .btn:hover {
-  color: var(--tg-theme-secondary);
-}
-.services__content-two .btn:hover::after {
-  color: var(--tg-theme-secondary);
-}
+
 .services__content-three p {
   margin-bottom: 25px;
 }

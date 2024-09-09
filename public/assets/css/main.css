@@ -5102,6 +5102,7 @@ textarea {
 }
 .services__content-two p {
   margin-bottom: 25px;
+  text-align: justify;
   
 }
 

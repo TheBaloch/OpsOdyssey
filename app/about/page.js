@@ -504,7 +504,7 @@ export default function About() {
                     </div>
                    </section>
                   {/* brand-area */}
-                    <div className="brand__area-four ">
+                    <div className="brand__area-four">
                         <div className="container">
                             <div className="swiper-container brand-active" >
                                 <BrandActiveSlider />
@@ -598,7 +598,7 @@ export default function About() {
                             <img src="/assets/img/images/h2_testimonial_shape.png" alt="" data-aos="fade-up" data-aos-delay={400} />
                         </div>
                     </section>
-                      {/* review-area-end */}
+                  `  {/* review-area-end */}
                     {/* team-area */}
                     {/* <section className="team__area-four">
                         <div className="container">
@@ -697,7 +697,7 @@ export default function About() {
                     {/* team-area-end */}
                     {/* call-back-area */}
                    
-                    <section className="call-back-area mt-0">
+                    <section className="call-back-area">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6">

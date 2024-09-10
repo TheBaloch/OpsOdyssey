@@ -44,7 +44,7 @@ export default function Footer6() {
                                         <div className="footer-link-list">
                                             <ul className="list-wrap">
                                                 {/* <li><Link href="/about">How it’s Work</Link></li> */}
-                                                <li><Link href="/contact">Pricing</Link></li>
+                                                <li><Link href="/pricing">Pricing</Link></li>
                                             </ul>
                                         </div>
                                     </div>

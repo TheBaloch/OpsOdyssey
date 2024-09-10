@@ -21,7 +21,7 @@ export default function Services2() {
                                   </div>
                                 <div className="services__content-two">
                                     <h2 className="title"><Link href="mobile-app-dev">Mobile App Dev</Link></h2>
-                                    <p>Crucial in today's electronic age are mobile apps. OpsOdyssey's developers design user-friendly, high-quality, and functional apps to satisfy a global audience while assuring top-class performance and wide, impacting reach for their users anywhere in the globe.</p>
+                                    <p>Crucial in today's electronic age are mobile apps. Our developers design user-friendly, high-quality, and functional apps to satisfy a global audience while assuring top-class performance and wide, impacting reach for their users anywhere in the globe.</p>
                                     <Link href="mobile-app-dev" className="btn">Read More</Link>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ export default function Services2() {
                                 </div>
                                 <div className="services__content-two">
                                     <h2 className="title"><Link href="/web-development">Website Development</Link></h2>
-                                    <p>OpsOdyssey provides effective solutions for modern web development. Our dedicated team is fully committed to delivering optimal performance and achieving the best possible results for your business, ensuring continuous innovation and growth.</p>
+                                    <p>OpsOdyssey provides effective solutions for modern web development. Our dedicated team is fully committed to delivering optimal performance and achieving the best possible results for your business.</p>
                                     <Link href="/web-development" className="btn">Read More</Link>
                                 </div>
                             </div>

@@ -2,6 +2,7 @@ import Faq4 from "@/components/Faq4/Faq4"
 import Layout from "@/components/layout/Layout"
 import BrandActiveSlider from "@/components/slider/BrandActiveSlider"
 import Tech from "@/components/Tech/Tech"
+import Tech3 from "@/components/Tech3/Tech3"
 
 export default function Page() {
     return (
@@ -31,16 +32,6 @@ export default function Page() {
                        </div>
                     </div>
                     </section>
-                    <div className="brand__area-six mt-0 mb-5 pt-0 pb-4">
-                        <div className="container">
-                            <div className="pb-50">
-                            <h1 className="title  ">Technology Stack</h1>
-                            </div>
-                            <div className="swiper-container brand-active">
-                            <Tech />
-                            </div>
-                        </div>
-                    </div>
                     <section className="about__area-four pb-0 pt-0">
                     <div className="container">
                        <div className="row align-items-center justify-content-center mt-0">
@@ -55,7 +46,6 @@ export default function Page() {
                                             <li><i className="flaticon-arrow-button" />We use the newest technologies and frameworks in the development of a website that is gorgeous to look at but highly functional, making sure the highest performance with great user experience is delivered. </li>
                                             <li><i className="flaticon-arrow-button" />Our development process will be tailored for your needs so we can make a website that will meet your business goals and precisely get across to your target audience for maximum effect.</li>
                                             <li><i className="flaticon-arrow-button" />We provide full-cycle web development services, from concept to going live and further maintenance, to get an efficient online solution that will support the growth of your business.</li>
-                                            
                                         </ul>
                                     </div>
 
@@ -64,15 +54,21 @@ export default function Page() {
                         <div className="col-lg-2 col-md-9 col-sm-10 text-end mb-35">
                             <div className="about__img-wrap3-home8">
                                 <img src="assets/img/icon/webdev2.png" alt="" />
-
-
-
-                                
                             </div>
                         </div>
                        </div>
                     </div>
                     </section>
+                    <div className="brand__area-six pb-0 pt-0">
+                        <div className="container">
+                            <div className="pb-50">
+                            <h1 className="title  ">Technology Stack</h1>
+                            </div>
+                            <div className="swiper-container brand-active">
+                            <Tech3 />
+                            </div>
+                        </div>
+                    </div>
                    
                     <section className="services__details-area  pt-0 mt-0 ">
                         <div className="container ">
@@ -148,13 +144,7 @@ export default function Page() {
                     </section>
                     {/* services-details-area-end */}
                     {/* brand-area */}
-                    <div className="brand__area-six mt-0 pt-0">
-                        <div className="container">
-                            <div className="swiper-container brand-active">
-                                <BrandActiveSlider />
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </Layout>
         </>

@@ -179,6 +179,7 @@ h6 {
 }
 .list-wrap li {
   list-style: none;
+  
 }
 
 p {
@@ -3386,8 +3387,8 @@ textarea {
   font-weight: 500;
   color: var(--tg-theme-secondary);
   font-family: var(--tg-heading-font-family);
-  gap: 12px;
-  margin-bottom: 10px;
+  gap: 18px;
+  margin-bottom: 20px;
 }
 .about__list-box .list-wrap li i {
   width: 26px;
@@ -3399,9 +3400,9 @@ textarea {
   border-radius: 50%;
   background: var(--tg-theme-primary);
   color: var(--tg-color-white-default);
-  line-height: 0;
   font-size: 18px;
   transform: translateY(3px);
+
 }
 .about__list-box .list-wrap li:last-child {
   margin-bottom: 0;

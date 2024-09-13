@@ -15,8 +15,8 @@ export default function About5() {
                                 </div>
                                
                                     <div className="about__list-box " >
-                                        <ul className="list-wrap mb-4">
-                                        <li><i className="flaticon-arrow-button" /> We ensure that the website is suitably optimized for SEO, performance, and usability in order to give exemplary results in visibility, speed, and user engagement.</li>
+                                        <ul className="list-wrap mb-4 ">
+                                            <li><i className="flaticon-arrow-button" /> We ensure that the website is suitably optimized for SEO, performance, and usability in order to give exemplary results in visibility, speed, and user engagement.</li>
                                             <li><i className="flaticon-arrow-button" /> Our skilled developers and designers are here to provide top-quality web and mobile solutions.</li>
                                             <li><i className="flaticon-arrow-button" />We work closely with clients to understand their unique needs, ensuring every project is  customized to meet their specific requirements.</li>
                                             <li><i className="flaticon-arrow-button" />We create innovative and tailored websites that seamlessly integrate design and  functionality.</li>
@@ -24,7 +24,7 @@ export default function About5() {
                                             
                                         </ul>
                                     </div>
-                                    <Link href="/contact" className="btn btn-two mt-4">Read more</Link>
+                                    <Link href="/about" className="btn btn-two mt-4">Read more</Link>
                                    
                               
                                

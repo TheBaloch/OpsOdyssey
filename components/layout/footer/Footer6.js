@@ -8,7 +8,7 @@ export default function Footer6() {
                     <div className="footer__top-two">
                         <div className="container">
                             <div className="row">
-                                <div className="col-xl-8 col-lg-6 col-md-6">
+                                <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="footer-widget">
                                         <div className="footer__content-two">
                                             <div className="fw-logo mb-25">
@@ -25,7 +25,23 @@ export default function Footer6() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-3 col-sm-6">
+                                <div className="col-xl-3 col-lg-3 col-sm-6">
+                                    <div className="footer-widget">
+                                        <h4 className="fw-title"> Top Services</h4>
+                                        <div className="footer-link-list">
+                                            <ul className="list-wrap">
+                                                {/* <li><Link href="/about">How it’s Work</Link></li> */}
+                                                <li><Link href="/mobile-app-dev">Mobile App Development</Link></li>
+                                                <li><Link href="/web-development">Website Development</Link></li>
+                                                <li><Link href="/seo">SEO</Link></li>
+                                                <li><Link href="/digital-marketing">Digital Marketing</Link></li>
+                                                <li><Link href="/latest-ui-ux">Latest UI/UX</Link></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-3 col-sm-6">
                                     <div className="footer-widget">
                                         <h4 className="fw-title">Information</h4>
                                         <div className="footer-link-list">
@@ -33,22 +49,13 @@ export default function Footer6() {
                                                 <li><Link href="/services">Services</Link></li>
                                                 <li><Link href="/about">About us</Link></li>
                                                 <li><Link href="/contact">Contact us</Link></li>
+                                                <li><Link href="/pricing">Pricing</Link></li>
                                                
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-3 col-sm-6">
-                                    <div className="footer-widget">
-                                        <h4 className="fw-title">Top Links</h4>
-                                        <div className="footer-link-list">
-                                            <ul className="list-wrap">
-                                                {/* <li><Link href="/about">How it’s Work</Link></li> */}
-                                                <li><Link href="/pricing">Pricing</Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                              
                             </div>
                         </div>
                     </div>

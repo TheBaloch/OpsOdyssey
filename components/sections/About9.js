@@ -20,7 +20,7 @@ export default function About9() {
                                 <p className="text-lg leading-relaxed indent-8 mb-6">OpsOdyssey has expert-level solutions in the domains of web and mobile development by having a robust skill set, having mastered both front-end development on React, Vue.js, and Ionic-Angular for dynamic and responsive UIs, and back-end development with PHP frameworks such as Codeigniter and Laravel, along with Node.js for scalable server-side operations. We also offer mobile development through technologies like React Native, advanced level of Next.js for performance-enhanced routing and rendering of the application, and experience in scripting languages like Python for developing small scripts, automation solutions, and web scraping for gathering critical data from various sources.</p>                               
                                 </div>
                                  <div className="services-bottom-content justify-content-start">
-                                    <Link href="/services" className="btn btn-two mt-1">Read More</Link>
+                                    <Link href="/about" className="btn btn-two mt-1">Read More</Link>
                                     <Link href="/contact" className="link-gray">Contact Us for a Quote</Link>
                                 </div>
                             </div>

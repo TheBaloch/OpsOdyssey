@@ -1,5 +1,6 @@
 import CounterUp from "@/components/elements/CounterUp"
 import Layout from "@/components/layout/Layout"
+import LetConnect from "@/components/LetConnect/LetConnect"
 import About1 from "@/components/sections/About1"
 import Counter2 from "@/components/sections/Counter2"
 import Faqs1 from "@/components/sections/Faqs1"
@@ -529,7 +530,7 @@ export default function About() {
                                             <img src="/assets/img/images/testi_avatar01.png" alt="" />
                                         </div> */}
                                         <div className="testimonial__info-two">
-                                            <h2 className="title">Javed Ahmed</h2>
+                                            <h2 className="title">Zaid Irfan</h2>
                                             <span>CEO,Natty NYC</span>
                                         </div>
                                         <div className="testimonial__rating">
@@ -551,7 +552,7 @@ export default function About() {
                                             <img src="/assets/img/images/testi_avatar02.png" alt="" />
                                         </div> */}
                                         <div className="testimonial__info-two">
-                                            <h2 className="title">Yousaf Kareem</h2>
+                                            <h2 className="title">Micheal</h2>
                                             <span>CEO,Immigration Guru</span>
                                           
                                         </div>
@@ -575,7 +576,7 @@ export default function About() {
                                             <img src="/assets/img/images/testi_avatar03.png" alt="" />
                                         </div> */}
                                         <div className="testimonial__info-two">
-                                            <h2 className="title">Rehan Khalil</h2>
+                                            <h2 className="title">Anthony Robert</h2>
                                             <span>CEO,Deliver Logic</span>
                                         </div>
                                         <div className="testimonial__rating">
@@ -698,47 +699,7 @@ export default function About() {
                     {/* call-back-area */}
                    
                     <section className="call-back-area mt-0">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="call-back-content">
-                                        <div className="section-title white-title mb-10">
-                                            <h2 className="title">Let's Connect</h2>
-                                        </div>
-                                        <p>Transform your business and get online with less hassle with our comprehensive development solutions.</p>
-                                        <div className="shape">
-                                            <img src="/assets/img/images/call_back_shape.png" alt="" data-aos="fade-right" data-aos-delay={400} />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="call-back-form">
-                                        <form action="#">
-                                            <div className="row">
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="text" placeholder="Name *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="email" placeholder="E-mail *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="number" placeholder="Phone *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <button type="submit" className="btn">Send Now</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       <LetConnect />
                     </section>
                     <Faqs1 />
                      

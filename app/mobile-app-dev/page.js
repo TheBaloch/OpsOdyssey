@@ -31,16 +31,6 @@ export default function Page() {
                        </div>
                     </div>
                     </section>
-                    <div className="brand__area-six mt-0 mb-5 pt-0 pb-4">
-                        <div className="container">
-                            <div className="pb-50">
-                            <h1 className="title  ">Technology Stack</h1>
-                            </div>
-                            <div className="swiper-container brand-active">
-                            <Tech />
-                            </div>
-                        </div>
-                    </div>
                     <section className="about__area-four pb-0 pt-0">
                     <div className="container">
                        <div className="row align-items-center justify-content-center mt-0">
@@ -70,6 +60,16 @@ export default function Page() {
                        </div>
                     </div>
                     </section>
+                    <div className="brand__area-six pb-0 pt-0">
+                        <div className="container">
+                            <div className="pb-50">
+                            <h1 className="title  ">Technology Stack</h1>
+                            </div>
+                            <div className="swiper-container brand-active">
+                            <Tech />
+                            </div>
+                        </div>
+                    </div>
                    
                     <section className="services__details-area  pt-0 mt-0 ">
                         <div className="container ">
@@ -144,13 +144,7 @@ export default function Page() {
                     </section>
                     {/* services-details-area-end */}
                     {/* brand-area */}
-                    <div className="brand__area-six mt-0 pt-0">
-                        <div className="container">
-                            <div className="swiper-container brand-active">
-                                <BrandActiveSlider />
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </Layout>
         </>

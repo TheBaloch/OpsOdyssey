@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import GetQuote from '../GetQuote/GetQuote'
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -103,43 +104,7 @@ export default function Slider3() {
                     </div>
                 </div>
                 <div className="box-form-quote">
-                    <div className="container">
-                        <div className="testimonial__form">
-                            <h2 className="title">Get a Quote</h2>
-                            <form action="#">
-                                <div className="form-grp">
-                                    <input type="text" placeholder="Full Name" />
-                                </div>
-                                <div className="form-grp">
-                                    <input type="email" placeholder="E-mail" />
-                                </div>
-                                <div className="form-grp select-grp">
-                                    <select name="orderby" className="orderby">
-                                        <option value="Select Insurance Service">Discussing a future Project</option>
-                                        <option value="Health Insurance">Digital Marketing</option>
-                                        <option value="Travel Insurance">Mobile App Development</option>
-                                        <option value="Vehicle Insurance">Search Engine Optimization</option>
-                                        <option value="Cargo Insurance">Social Media Marketing</option>
-                                        <option value="Bike Insurance">UI/UX Design</option> 
-                                        <option value="Fire Insurance">Website Development</option>
-                                        <option value="Fire Insurance">Something else</option>
-                                    </select>
-                                </div>
-                                {/* <div className="range-slider-wrap">
-                                    <div className="range-top">
-                                        <p>Limits of balance:</p>
-                                        <span>$<strong id="rangeValue">{value}</strong></span>
-                                    </div>
-                                    <input className="range" type="range"
-                                        min="1"
-                                        max="50000"
-                                        value={value}
-                                        onChange={e => handleChange(e)} />
-                                </div> */}
-                                <button type="submit" className="btn mt-4">Request a Quote</button>
-                            </form>
-                        </div>
-                    </div>
+                 <GetQuote />
                 </div>
             </section>
 

@@ -145,13 +145,7 @@ export default function Page() {
                     </section>
                     {/* services-details-area-end */}
                     {/* brand-area */}
-                    <div className="brand__area-six mt-0 pt-0">
-                        <div className="container">
-                            <div className="swiper-container brand-active">
-                                <BrandActiveSlider />
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </Layout>
 

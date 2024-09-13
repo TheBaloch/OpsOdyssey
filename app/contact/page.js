@@ -1,3 +1,4 @@
+import ContactQuote from "@/components/ContactQuote/ContactQuote"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
@@ -56,38 +57,7 @@ export default function Contact() {
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
-                                    <div className="contact__form-wrap">
-                                        <h2 className="title">Give Us a Message</h2>
-                                        <p>Your email address will not be published. Required fields are marked *</p>
-                                        <form id="contact-form" action="assets/mail.php" method="POST">
-                                            <div className="form-grp">
-                                                <textarea name="message" placeholder="Message" />
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-md-4">
-                                                    <div className="form-grp">
-                                                        <input type="text" name="name" placeholder="Name" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-4">
-                                                    <div className="form-grp">
-                                                        <input type="email" name="email" placeholder="Email" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-4">
-                                                    <div className="form-grp">
-                                                        <input type="number" name="phone" placeholder="Phone" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="form-grp checkbox-grp">
-                                                <input type="checkbox" name="checkbox" id="checkbox" />
-                                                <label htmlFor="checkbox">Save my name, email, and website in this browser for the next time I comment.</label>
-                                            </div>
-                                            <button type="submit" className="btn">Submit post</button>
-                                        </form>
-                                        <p className="ajax-response mb-0" />
-                                    </div>
+                                   <ContactQuote />
                                 </div>
                             </div>
                         </div>

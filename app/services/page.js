@@ -1,11 +1,16 @@
+import GetQuote from "@/components/GetQuote/GetQuote"
 import Layout from "@/components/layout/Layout"
+import LetConnect from "@/components/LetConnect/LetConnect"
+import Service from "@/components/Service/Service"
 import Link from "next/link"
 
 export default function Services() {
     return (
         <>
             <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="All Services">
-                    <section className="services__area-four services__bg-four pt-5 " >
+                     <Service />
+                    
+                    {/* <section className="services__area-four services__bg-four pt-5 " >
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-6">
@@ -167,12 +172,12 @@ export default function Services() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="services__shape-wrap-two">
+                        <div className="services__shape-wrap-two">
                             <img src="/assets/img/services/inner_services_shape01.png" alt="" data-aos="fade-right" data-aos-delay={400} />
                             <img src="/assets/img/services/inner_services_shape02.png" alt="" data-aos="fade-left" data-aos-delay={400} />
-                        </div> */}
-                    </section>
-                    <section className="services__area-five services__bg-five pt-0 pb-4">
+                        </div>
+                    </section> */}
+                    {/* <section className="services__area-five services__bg-five pt-0 pb-4">
                          <div className="container">
                            <div className="row justify-content-center">
                               <div className="col-xl-6 col-lg-8">
@@ -302,8 +307,8 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
-                    </section>
-                
+                    </section> */}
+                  
             </Layout>
         </>
     )

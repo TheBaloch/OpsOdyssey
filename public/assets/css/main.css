@@ -3232,6 +3232,14 @@ textarea {
     padding: 100px 0;
   }
 }
+.service-area {
+  padding: 80px 0;
+}
+@media (max-width: 991.98px) {
+  .service-area {
+    padding: 100px 0;
+  }
+}
 .about__area-five {
   padding: 120px 0;
 }
@@ -3761,6 +3769,14 @@ textarea {
   
 
 
+  
+}
+.service-area-content p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight:500;
+  word-wrap: break-word;
   
 }
 .services-content .title {
@@ -7991,8 +8007,8 @@ textarea {
 }
 
 .link-arrow a {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -8014,7 +8030,7 @@ textarea {
   --arrow-hover-move-y: 100%;
 }
 .link-arrow a svg {
-  width: 15px;
+  width: 20px;
 }
 .link-arrow a svg path {
   transition: transform 0.38s cubic-bezier(0.37, 0.08, 0.02, 0.93), opacity 0.18s ease-out;

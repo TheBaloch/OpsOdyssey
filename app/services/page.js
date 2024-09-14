@@ -9,7 +9,9 @@ export default function Services() {
         <>
             <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="All Services">
                      <Service />
-                    
+                     <section className="call-back-area mt-20">
+                       <LetConnect />
+                    </section>
                     {/* <section className="services__area-four services__bg-four pt-5 " >
                         <div className="container">
                             <div className="row justify-content-center">

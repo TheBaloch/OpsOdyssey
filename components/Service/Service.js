@@ -11,7 +11,8 @@ export default function Service(){
                  <span className="sub-title">Services</span>
                  <h2 className="title">Our Services Charter</h2>
          </div>
-                <div className="col-lg-6 py-4">
+                <div className="col-lg-6 py-4  ">
+                    <div className="fade-left">
                     <div className="service-area-content">
                     
                 <div className="section-title mb-20">
@@ -28,18 +29,21 @@ export default function Service(){
                                  </svg>
                              </Link>
                         </div>
+                        </div>
                 </div>
                 <div className="col-lg-6 py-4">
-                      <img src="/assets/img/project/project_img01.jpg" />
+                      <img  className="fade-right" src="/assets/img/project/project_img01.jpg" />
                 </div>
 
             </div>
             <div className="row pt-30">
             <div className="col-lg-6 py-4">
-                      <img src="/assets/img/project/project_img02.jpg" />
+                      <img   className="fade-left" src="/assets/img/project/project_img02.jpg" />
                 </div>
                 <div className="col-lg-6 py-4">
+                <div className="fade-right">
                 <div className="service-area-content">
+                    
                 <div className="section-title mb-20">
                      <span className="sub-title">Mobile App Development</span>
                          <h2 className="title">Efficient and Scalable Mobile App Solutions</h2>
@@ -54,10 +58,13 @@ export default function Service(){
                                  </svg>
                              </Link>
                         </div>
+
+                </div>
                 </div>
             </div>
             <div className="row pt-30">
                 <div className="col-lg-6 py-4">
+                    <div className="fade-right">
                 <div className="service-area-content">
                 <div className="section-title mb-20">
                      <span className="sub-title">SEO</span>
@@ -73,19 +80,20 @@ export default function Service(){
                                  </svg>
                              </Link>
                         </div>
-                
+                        </div>
                 </div>
                 <div className="col-lg-6  py-4">
-                      <img src="/assets/img/project/project_img03.jpg" />
+                      <img className="fade-left"  src="/assets/img/project/project_img03.jpg" />
                 </div>
           
             </div>
       
              <div className="row pt-30 ">
              <div className="col-lg-6 py-4">
-                      <img src="/assets/img/project/sm.jpg" />
+                      <img className="fade-right" src="/assets/img/project/sm.jpg" />
                 </div>
                 <div className="col-lg-6 py-4 ">
+                <div className="fade-left">
                 <div className="service-area-content">
                 <div className="section-title mb-20">
                      <span className="sub-title"> Social Media Marketing</span>
@@ -103,8 +111,10 @@ export default function Service(){
                         </div>
                 </div>
                 </div>
+                </div>
                 <div className="row pt-30">
                 <div className="col-lg-6 py-4">
+                <div className="fade-left">
                 <div className="service-area-content">
                 <div className="section-title mb-20">
                      <span className="sub-title">Digital Marketing</span>
@@ -120,17 +130,18 @@ export default function Service(){
                                  </svg>
                              </Link>
                         </div>
-                
+                        </div>
                 </div>
                 <div className="col-lg-6  py-4">
-                      <img src="/assets/img/project/dim.jpg" />
+                      <img className="fade-right" src="/assets/img/project/dim.jpg" />
                 </div>
                 </div>
                 <div className="row pt-30 ">
                 <div className="col-lg-6 py-4">
-                      <img src="/assets/img/project/scrap.jpg" />
+                      <img className="fade-left" src="/assets/img/project/scrap.jpg" />
                 </div>
                 <div className="col-lg-6 py-4 ">
+                <div className="fade-right">
                 <div className="service-area-content">
                 <div className="section-title mb-20">
                      <span className="sub-title"> Web Scraping</span>
@@ -148,8 +159,10 @@ export default function Service(){
                         </div>
                 </div>
                 </div>
+                </div>
                 <div className="row pt-30">
                 <div className="col-lg-6 py-4">
+                <div className="fade-left">
                 <div className="service-area-content">
                 <div className="section-title mb-20">
                      <span className="sub-title">DevOPs</span>
@@ -165,17 +178,18 @@ export default function Service(){
                                  </svg>
                              </Link>
                         </div>
-                
+                        </div>
                 </div>
                 <div className="col-lg-6  py-4">
-                      <img src="/assets/img/project/devops.jpg" />
+                      <img className="fade-right" src="/assets/img/project/devops.jpg" />
                 </div>
                 </div>
                 <div className="row pt-30 ">
                 <div className="col-lg-6 py-4">
-                      <img src="/assets/img/project/ux.jpg" />
+                      <img className="fade-left" src="/assets/img/project/ux.jpg" />
                 </div>
                 <div className="col-lg-6 py-4 ">
+                <div className="fade-right">
                 <div className="service-area-content">
                 <div className="section-title mb-20">
                      <span className="sub-title">UI/UX</span>
@@ -193,8 +207,10 @@ export default function Service(){
                         </div>
                 </div>
                 </div>
+                </div>
                 <div className="row pt-30">
                 <div className="col-lg-6 py-4">
+                <div className="fade-left">
                 <div className="service-area-content">
                 <div className="section-title mb-20">
                      <span className="sub-title">Telephony Solutions</span>
@@ -210,10 +226,10 @@ export default function Service(){
                                  </svg>
                              </Link>
                         </div>
-                
+                        </div>
                 </div>
                 <div className="col-lg-6  py-4">
-                      <img src="/assets/img/project/tele.jpg" />
+                      <img className="fade-right" src="/assets/img/project/tele.jpg" />
                 </div>
                 </div>
             

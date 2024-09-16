@@ -1,17 +1,17 @@
-import GetQuote from "@/components/GetQuote/GetQuote"
+
 import Layout from "@/components/layout/Layout"
-import LetConnect from "@/components/LetConnect/LetConnect"
+import Callback2 from "@/components/sections/Callback2"
+import Counter2 from "@/components/sections/Counter2"
 import Service from "@/components/Service/Service"
-import Link from "next/link"
 
 export default function Services() {
     return (
         <>
             <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="All Services">
                      <Service />
-                     <section className="call-back-area mt-20">
-                       <LetConnect />
-                    </section>
+                     <Counter2 />
+                    
+               
                     {/* <section className="services__area-four services__bg-four pt-5 " >
                         <div className="container">
                             <div className="row justify-content-center">
@@ -179,19 +179,19 @@ export default function Services() {
                             <img src="/assets/img/services/inner_services_shape02.png" alt="" data-aos="fade-left" data-aos-delay={400} />
                         </div>
                     </section> */}
-                    {/* <section className="services__area-five services__bg-five pt-0 pb-4">
+                    <section className="services__area-five services__bg-five pt-4 ">
                          <div className="container">
                            <div className="row justify-content-center">
                               <div className="col-xl-6 col-lg-8">
                                 <div className="section-title text-center mb-40">
-                                    <span className="sub-title">WHAT WE OFFER</span>
-                                    <h2 className="title">Sleek and Effective Web Services</h2>
+                                    <span className="sub-title">Our Key Offerings</span>
+                                    <h2 className="title">What We Offer More?</h2>
                                 </div>
                             </div>
                         </div>
                         <div className="services-item-wrap">
                             <div className="row justify-content-center">
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
                                              <img src="/assets/img/services/development.jpg" alt="" />
@@ -204,7 +204,7 @@ export default function Services() {
                                             <p>Creating visually appealing and functional websites tailored to clients' needs.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
@@ -262,7 +262,7 @@ export default function Services() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
                                            <img src="/assets/img/services/seo.jpg" alt="" />
@@ -276,8 +276,8 @@ export default function Services() {
                                             
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                </div> */}
+                                {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
                                            <img src="/assets/img/services/hosting.jpg" alt="" />
@@ -291,8 +291,8 @@ export default function Services() {
                                            
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                </div> */}
+                                {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                                     <div className="services-item shine-animate-item">
                                         <div className="services-thumb">
                                           <img src="/assets/img/services/maintain.jpg" alt="" />
@@ -305,11 +305,14 @@ export default function Services() {
                                             <p>Offering ongoing maintenance, updates, and technical support for clients' websites.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
-                    </section> */}
+                    </section>
+                    <section className="mb-80">
+                    <Callback2 />
+                    </section> 
                   
             </Layout>
         </>

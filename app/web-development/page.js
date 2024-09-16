@@ -1,3 +1,4 @@
+import CallService from "@/components/CallService/CallService"
 import Faq4 from "@/components/Faq4/Faq4"
 import Layout from "@/components/layout/Layout"
 import BrandActiveSlider from "@/components/slider/BrandActiveSlider"
@@ -136,6 +137,7 @@ export default function Page() {
                                             </section>
                                             {/* faq start */}
                                         </div>
+                                        <CallService />
                                         <Faq4/>
                                     </div>
                                 </div>

@@ -1,3 +1,4 @@
+import CallService from "@/components/CallService/CallService"
 import Faq8 from "@/components/Faq8/Faq8"
 import Layout from "@/components/layout/Layout"
 import Tech6 from "@/components/Tech6/Tech6"
@@ -134,6 +135,7 @@ export default function Page() {
                                             </section>
                                             {/* faq start */}
                                         </div>
+                                        <CallService />
                                         <Faq8/>
                                     </div>
                                 </div>

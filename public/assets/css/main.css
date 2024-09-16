@@ -14401,6 +14401,10 @@ blockquote p {
   right: 0px;
   z-index: 12;
 }
+.call{
+  border:2px solid var(--tg-theme-secondary) ;
+  border-radius: 5px;
+}
 .slider__area-home8 .box-form-quote .testimonial__form {
   margin: 0px 0px 0px auto;
 }

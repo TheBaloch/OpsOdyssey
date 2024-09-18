@@ -29,8 +29,8 @@ export default function Menu() {
                         <li><Link href="/telephony-solutions">Telephony Solutions</Link></li>
                     </ul>
                 </li>
-                {/* <li><Link href="/pricing">Pricing</Link>
-                    <ul className="sub-menu">
+                <li><Link href="/faqs">FAQs</Link>
+                    {/* <ul className="sub-menu">
                         <li><Link href="/team">Team One</Link></li>
                         <li><Link href="/team-2">Team Two</Link></li>
                         <li><Link href="/team-3">Team Three</Link></li>
@@ -41,9 +41,9 @@ export default function Menu() {
                         <li><Link href="/login">Login Page</Link></li>
                         <li><Link href="/register">Register Page</Link></li>
                         <li><Link href="/forgot-password">Forgot password Page</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                 */}
+                
                 <li ><Link href="/about">About Us</Link>
                     {/* <ul className="sub-menu">
                         <li><Link href="/about">Business About</Link></li>

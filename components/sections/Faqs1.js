@@ -23,7 +23,7 @@ export default function Faqs1() {
     }
     return (
         <>
-            <section className="faqs__area-six">
+            <section className="faqs__area-six  pb-5">
                 <div className="circle" data-parallax="{&quot;x&quot; : 100 , &quot;y&quot; : 100 }" />
                 <div className="container">
                     <div className="row align-items-center">
@@ -44,8 +44,8 @@ export default function Faqs1() {
                                         <path fillRule="evenodd" clipRule="evenodd" d="M15.0747 5.8513H17.5917C17.9032 5.8513 18.1566 5.5982 18.1566 5.28638C18.1566 4.9745 17.9032 4.72147 17.5917 4.72147H15.0747C14.7629 4.72147 14.5098 4.97456 14.5098 5.28638C14.5097 5.5982 14.7628 5.8513 15.0747 5.8513Z" fill="#F7A400" />
                                         <path fillRule="evenodd" clipRule="evenodd" d="M26.79 21.663L28.4874 21.4227C29.284 21.3101 29.9883 20.8472 30.4078 20.161L32.2232 17.189C32.3859 16.9231 32.3015 16.5751 32.0356 16.4124C31.7697 16.2501 31.4217 16.3341 31.259 16.6L29.4437 19.572C29.2004 19.9701 28.7913 20.2386 28.3292 20.3041L26.6317 20.5441C26.3229 20.5878 26.1075 20.874 26.1511 21.1828C26.1948 21.4912 26.4811 21.7066 26.79 21.663Z" fill="#F7A400" />
                                     </svg>
-                                    <h6>Need more help?</h6>
-                                    <p>Feeling inquisitive? Have a read through some of our FAQs or <a href="#">contact</a> our Supporters for help</p>
+                                    <h6>Need more Info?</h6>
+                                    <p>Feeling inquisitive? Have a read through some of our FAQs or contact us.</p>
                                 </div> */}
                             </div>
                         </div>

@@ -49,7 +49,7 @@ export default function Footer6() {
                                                 <li><Link href="/services">Services</Link></li>
                                                 <li><Link href="/about">About us</Link></li>
                                                 <li><Link href="/contact">Contact us</Link></li>
-                                                {/* <li><Link href="/pricing">Pricing</Link></li> */}
+                                                <li><Link href="/faqs">FAQs</Link></li>
                                                
                                             </ul>
                                         </div>

@@ -14020,6 +14020,7 @@ blockquote p {
 .steps__area-seven * {
   color: var(--tg-color-white-default);
 }
+ 
 
 .journey_area-seven {
   padding: 85px 0px 0px 0px;
@@ -14060,7 +14061,10 @@ blockquote p {
   text-align: center;
   line-height: 78px;
   margin-bottom: 24px;
+
+
 }
+
 .card-step .card-icon * {
   max-width: 100%;
   max-height: 100%;
@@ -14073,6 +14077,7 @@ blockquote p {
 }
 .card-step .card-info p {
   margin-bottom: 40px;
+  text-align: justify;
 }
 .card-step .card-info .link-readmore {
   color: var(--tg-color-white-default);

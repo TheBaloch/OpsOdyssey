@@ -6,6 +6,7 @@ import Slider3 from "@/components/sections/Slider3"
 import About5 from "@/components/sections/About5"
 import Testimonials from "@/components/sections/Testimonials"
 import Services2 from "@/components/sections/Services2"
+import Steps from "@/components/sections/Steps"
 
 export const metadata = {
     title: 'OpsOdyssey',
@@ -20,8 +21,10 @@ export default function Home() {
                 <About5 />
                 <Counter2 />
                 <Testimonials />
-                <Services2 />           
-                <Brand3 />             
+                <Services2 /> 
+                <Brand3 />   
+                <Steps />          
+                         
             </Layout>
         </>
     )

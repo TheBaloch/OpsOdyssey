@@ -60,8 +60,8 @@ export default function Testimonial6() {
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="section-title white-title text-center mb-50">
-                                <span className="sub-title">Clients Testimonial</span>
-                                <h2 className="title">What Our Loving Clients Saying</h2>
+                                <span className="sub-title">Reviews</span>
+                                <h2 className="title">Client Feedback That Matters</h2>
                             </div>
                         </div>
                     </div>
@@ -71,12 +71,12 @@ export default function Testimonial6() {
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide>
                                         <div className="testimonial__item-two">
-                                            <div className="testimonial__avatar">
+                                            {/* <div className="testimonial__avatar">
                                                 <img src="/assets/img/images/testi_avatar01.png" alt="" />
-                                            </div>
+                                            </div> */}
                                             <div className="testimonial__info-two">
-                                                <h2 className="title">John Gripsonery</h2>
-                                                <span>CEO,JAKS Shans</span>
+                                                <h2 className="title">Zaid Irfan</h2>
+                                                <span>CEO, Natty NYC</span>
                                             </div>
                                             <div className="testimonial__rating">
                                                 <i className="fas fa-star" />
@@ -85,7 +85,7 @@ export default function Testimonial6() {
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
                                             </div>
-                                            <p>Songerty successfully cope with tasks of varying complexity provide area guarantees and regularly.</p>
+                                            <p>OpsOdyssey built a great e-commerce app for Natty NYC, enhancing our customer experience with personalized recommendations and a smooth checkout process.</p>
                                             <div className="icon">
                                                 <img src="/assets/img/icon/quote.svg" alt="" />
                                             </div>
@@ -93,12 +93,12 @@ export default function Testimonial6() {
                                     </SwiperSlide> {/*swiper slider*/}
                                     <SwiperSlide>
                                         <div className="testimonial__item-two">
-                                            <div className="testimonial__avatar">
+                                            {/* <div className="testimonial__avatar">
                                                 <img src="/assets/img/images/testi_avatar02.png" alt="" />
-                                            </div>
+                                            </div> */}
                                             <div className="testimonial__info-two">
-                                                <h2 className="title">Kristin Watson</h2>
-                                                <span>CEO,JAKS Shans</span>
+                                                <h2 className="title">Micheal</h2>
+                                                <span>CEO, Immigration Guru</span>
                                             </div>
                                             <div className="testimonial__rating">
                                                 <i className="fas fa-star" />
@@ -107,7 +107,7 @@ export default function Testimonial6() {
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
                                             </div>
-                                            <p>Songerty successfully cope with tasks of varying complexity provide area guarantees and regularly.</p>
+                                            <p>OpsOdyssey improved our platform, Immigration Guru. They designed a user-friendly and swift web app that bridges the gap between international job seekers and employers.</p>
                                             <div className="icon">
                                                 <img src="/assets/img/icon/quote.svg" alt="" />
                                             </div>
@@ -115,12 +115,12 @@ export default function Testimonial6() {
                                     </SwiperSlide>{/*swiper slider*/}
                                     <SwiperSlide>
                                         <div className="testimonial__item-two">
-                                            <div className="testimonial__avatar">
+                                            {/* <div className="testimonial__avatar">
                                                 <img src="/assets/img/images/testi_avatar03.png" alt="" />
-                                            </div>
+                                            </div> */}
                                             <div className="testimonial__info-two">
-                                                <h2 className="title">Wade Warren</h2>
-                                                <span>CEO,JAKS Shans</span>
+                                                <h2 className="title">Anthony Robert</h2>
+                                                <span>CEO, Deliver Logic</span>
                                             </div>
                                             <div className="testimonial__rating">
                                                 <i className="fas fa-star" />
@@ -129,7 +129,7 @@ export default function Testimonial6() {
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
                                             </div>
-                                            <p>Songerty successfully cope with tasks of varying complexity provide area guarantees and regularly.</p>
+                                            <p>OpsOdyssey's DeliverLogic completely revolutionized our delivery operations with AI-driven logistics and seamless online ordering. Huge kudos to their outstanding work!</p>
                                             <div className="icon">
                                                 <img src="/assets/img/icon/quote.svg" alt="" />
                                             </div>
@@ -137,12 +137,12 @@ export default function Testimonial6() {
                                     </SwiperSlide>{/*swiper slider*/}
                                     <SwiperSlide>
                                         <div className="testimonial__item-two">
-                                            <div className="testimonial__avatar">
+                                            {/* <div className="testimonial__avatar">
                                                 <img src="/assets/img/images/testi_avatar04.png" alt="" />
-                                            </div>
+                                            </div> */}
                                             <div className="testimonial__info-two">
-                                                <h2 className="title">Wade Warren</h2>
-                                                <span>CEO,JAKS Shans</span>
+                                                <h2 className="title">Blavo & Stewart</h2>
+                                                <span>CEO, Within28Days</span>
                                             </div>
                                             <div className="testimonial__rating">
                                                 <i className="fas fa-star" />
@@ -151,7 +151,7 @@ export default function Testimonial6() {
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
                                             </div>
-                                            <p>Songerty successfully cope with tasks of varying complexity provide area guarantees and regularly.</p>
+                                            <p>OpsOdyssey did a great job on our website. They understood our needs, delivered on time, and improved our online presence. The site looks professional, and upto marks.</p>
                                             <div className="icon">
                                                 <img src="/assets/img/icon/quote.svg" alt="" />
                                             </div>

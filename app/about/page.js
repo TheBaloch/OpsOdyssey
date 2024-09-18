@@ -1,9 +1,11 @@
 import CounterUp from "@/components/elements/CounterUp"
 import Layout from "@/components/layout/Layout"
 import LetConnect from "@/components/LetConnect/LetConnect"
+import Review from "@/components/Review/Review"
 import About1 from "@/components/sections/About1"
 import Counter2 from "@/components/sections/Counter2"
 import Faqs1 from "@/components/sections/Faqs1"
+import Testimonial6 from "@/components/sections/Testimonial6"
 import BrandActiveSlider from "@/components/slider/BrandActiveSlider"
 import Link from "next/link"
 
@@ -512,94 +514,9 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    {/* review-area */}
-                    <section className="testimonial__area-two">
-                        <div className="container">
-                            <div className="row justify-content-center">
-                                <div className="col-lg-6">
-                                    <div className="section-title white-title text-center mb-50">
-                                        <span className="sub-title">Reviews</span>
-                                        <h2 className="title">Client Feedback That Matters</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row justify-content-center gutter-24">
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="testimonial__item-two">
-                                        {/* <div className="testimonial__avatar">
-                                            <img src="/assets/img/images/testi_avatar01.png" alt="" />
-                                        </div> */}
-                                        <div className="testimonial__info-two">
-                                            <h2 className="title">Zaid Irfan</h2>
-                                            <span>CEO,Natty NYC</span>
-                                        </div>
-                                        <div className="testimonial__rating">
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                        </div>
-                                        <p>OpsOdyssey delivered a fantastic e-commerce app for Natty NYC. The improvements they made to our customer experience included personalized recommendations and a seamless checkout process. Their expertise in the subject was evident.</p>
-                                        <div className="icon">
-                                            <img src="/assets/img/icon/quote.svg" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="testimonial__item-two">
-                                        {/* <div className="testimonial__avatar">
-                                            <img src="/assets/img/images/testi_avatar02.png" alt="" />
-                                        </div> */}
-                                        <div className="testimonial__info-two">
-                                            <h2 className="title">Micheal</h2>
-                                            <span>CEO,Immigration Guru</span>
-                                          
-                                        </div>
-                                        <div className="testimonial__rating">
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star-half-alt" />
-
-                                        </div>
-                                        <p>OpsOdyssey improved our platform, Immigration Guru, manifold. They designed a user-friendly and swift web application that bridges the gap between international job seekers and employers quite easily. Commitment and results are impressive.</p>
-                                        <div className="icon">
-                                            <img src="/assets/img/icon/quote.svg" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="testimonial__item-two">
-                                        {/* <div className="testimonial__avatar">
-                                            <img src="/assets/img/images/testi_avatar03.png" alt="" />
-                                        </div> */}
-                                        <div className="testimonial__info-two">
-                                            <h2 className="title">Anthony Robert</h2>
-                                            <span>CEO,Deliver Logic</span>
-                                        </div>
-                                        <div className="testimonial__rating">
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star-half-alt" />
-
-                                        </div>
-                                        <p>OpsOdyssey's DeliverLogic revolutionized our delivery operations. AI-driven logistics integrated with seamless online ordering have truly improved efficiency and customer satisfaction. Kudos to their outstanding work!</p>
-                                        <div className="icon">
-                                            <img src="/assets/img/icon/quote.svg" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="testimonial__shape-two">
-                            <img src="/assets/img/images/h2_testimonial_shape.png" alt="" data-aos="fade-up" data-aos-delay={400} />
-                        </div>
-                    </section>
-                      {/* review-area-end */}
+                     {/* review-area */}
+                    <Testimonial6 />
+                    {/* review-area-end */}
                     {/* team-area */}
                     {/* <section className="team__area-four">
                         <div className="container">

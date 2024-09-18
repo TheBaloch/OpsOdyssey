@@ -35,7 +35,7 @@ export default function CallService() {
                 
                
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="box-form-quote p-4 ">
+                    <div className="testimonial__form p-4 ">
                         <GetQuote />
                     </div>
                 </div>

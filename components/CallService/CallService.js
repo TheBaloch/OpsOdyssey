@@ -3,9 +3,9 @@ import GetQuote from "../GetQuote/GetQuote";
 export default function CallService() {
     return (
         <section className="container my-5 ">
-            <div className="row d-flex align-items-center pb-4 pt-4 pl-4 shadow-sm rounded">
+            <div className="row d-flex align-items-center shadow-sm rounded">
                 
-                <div className="col-lg-7 col-md-7 col-sm-12 mb-4 mb-lg-0">
+                <div className="col-lg-6 col-md-6 col-sm-12 mb-4 mb-lg-0">
                 <div className="box-need-help">
                                 <img src="/assets/img/home6/call.jpg" />
                                 <div className="box-text-need-help">
@@ -34,8 +34,8 @@ export default function CallService() {
                 </div>
                 
                
-                <div className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="testimonial__form p-4 ">
+                <div className="col-lg-3 col-md-3 col-sm-12">
+                    <div className=" ">
                         <GetQuote />
                     </div>
                 </div>

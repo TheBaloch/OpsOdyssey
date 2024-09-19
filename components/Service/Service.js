@@ -30,13 +30,13 @@ export default function Service(){
                     </div>
                  </div>
                  <div className="col-lg-6 py-4">
-                      <img  className="fade-right" src="/assets/img/project/project_img01.jpg" />
+                      <img  className="fade-right" src="/assets/img/project/project_img01.jpg" loading="lazy" />
                  </div>
 
             </div>
             <div className="row pt-30">
                 <div className="col-lg-6 py-4">
-                      <img   className="fade-left" src="/assets/img/project/project_img02.jpg" />
+                      <img   className="fade-left" src="/assets/img/project/project_img02.jpg" loading="lazy" />
                 </div>
                 <div className="col-lg-6 py-4">
                         <div className="fade-right">
@@ -80,13 +80,13 @@ export default function Service(){
                         </div>
                </div>
                <div className="col-lg-6  py-4">
-                      <img className="fade-left"  src="/assets/img/project/project_img03.jpg" />
+                      <img className="fade-left"  src="/assets/img/project/project_img03.jpg" loading="lazy"  />
                </div>
             </div>
       
              <div className="row pt-30 ">
                 <div className="col-lg-6 py-4">
-                      <img className="fade-right" src="/assets/img/project/sm.jpg" />
+                      <img className="fade-right" src="/assets/img/project/sm.jpg" loading="lazy" />
                 </div>
                 <div className="col-lg-6 py-4 ">
                         <div className="fade-left">
@@ -129,12 +129,12 @@ export default function Service(){
                         </div>
                  </div>
                  <div className="col-lg-6  py-4">
-                      <img className="fade-right" src="/assets/img/project/dim.jpg" />
+                      <img className="fade-right" src="/assets/img/project/dim.jpg" loading="lazy" />
                  </div>
              </div>
              <div className="row pt-30 ">
                 <div className="col-lg-6 py-4">
-                      <img className="fade-left" src="/assets/img/project/scrap.jpg" />
+                      <img className="fade-left" src="/assets/img/project/scrap.jpg"  loading="lazy"/>
                 </div>
                 <div className="col-lg-6 py-4 "> 
                          <div className="fade-right">
@@ -177,12 +177,12 @@ export default function Service(){
                           </div>
                 </div>
                 <div className="col-lg-6  py-4">
-                      <img className="fade-right" src="/assets/img/project/devops.jpg" />
+                      <img className="fade-right" src="/assets/img/project/devops.jpg"  loading="lazy" />
                 </div>
              </div>
              <div className="row pt-30 ">
                 <div className="col-lg-6 py-4">
-                      <img className="fade-left" src="/assets/img/project/ux.jpg" />
+                      <img className="fade-left" src="/assets/img/project/ux.jpg" loading="lazy" />
                 </div>
                 <div className="col-lg-6 py-4 ">
                          <div className="fade-right">
@@ -225,7 +225,7 @@ export default function Service(){
                         </div>
                 </div>
                 <div className="col-lg-6  py-4">
-                      <img className="fade-right" src="/assets/img/project/tele.jpg" />
+                      <img className="fade-right" src="/assets/img/project/tele.jpg" loading="lazy" />
                 </div>
              </div>
             

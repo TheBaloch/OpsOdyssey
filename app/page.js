@@ -7,6 +7,10 @@ import About5 from "@/components/sections/About5"
 import Testimonials from "@/components/sections/Testimonials"
 import Services2 from "@/components/sections/Services2"
 import Steps from "@/components/sections/Steps"
+import Services4 from "@/components/sections/Services4"
+import LetConnect from "@/components/LetConnect/LetConnect"
+import Callback2 from "@/components/sections/Callback2"
+import CallService from "@/components/CallService/CallService"
 
 export const metadata = {
     title: 'OpsOdyssey',
@@ -21,9 +25,14 @@ export default function Home() {
                 <About5 />
                 <Counter2 />
                 <Testimonials />
-                <Services2 /> 
-                <Brand3 />   
-                <Steps />          
+                {/* <Services4 /> */}
+                <Services2 />
+                <Brand3 />  
+                <Steps />
+                <div className="call-back-area pt-0">
+               <LetConnect />
+               </div>  
+                      
                          
             </Layout>
         </>

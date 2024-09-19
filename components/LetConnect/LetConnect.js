@@ -37,9 +37,7 @@ export default function LetConnect(){
                             <h2 className="title">Let's Connect</h2>
                          </div>
                             <p>Transform your business and get online with less hassle with our comprehensive development solutions.</p>
-                        <div className="shape">
-                             <img src="/assets/img/images/call_back_shape.png" alt="" data-aos="fade-right" data-aos-delay={400} />
-                        </div>
+                      
                      </div>
                 </div>
                 <div className="col-lg-6">

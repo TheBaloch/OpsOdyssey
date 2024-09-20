@@ -66,6 +66,9 @@ export default function GetQuote() {
               <option value="Social Media Marketing">Social Media Marketing</option>
               <option value="UI/UX Design">UI/UX Design</option> 
               <option value="Website Development">Website Development</option>
+              <option value="Website Development">Web Scraping</option>
+              <option value="Website Development">DevOps</option>
+              <option value="Website Development">Telephony Solutions</option>
               <option value="Something else">Something else</option>
             </select>
           </div>

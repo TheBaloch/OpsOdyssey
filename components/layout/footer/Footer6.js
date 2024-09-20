@@ -16,7 +16,7 @@ export default function Footer6() {
     
         sendForm('service_ukc9sve', 'template_7w6ij4w', e.target, 'aQ_b0gm5EDH5P9Mgk')
           .then((result) => {
-            setStatus('Subscription successful!');
+            setStatus('Thank You For Subscribing!');
             setFormData({ email: '' });
           }, (error) => {
             setStatus('Subscription failed. Please try again.');

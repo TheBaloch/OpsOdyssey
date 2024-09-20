@@ -1,6 +1,27 @@
-import Link from "next/link"
-
+ 'use client'
+ import Link from "next/link"
+import { sendForm } from "@emailjs/browser";
+import { useState } from "react";
 export default function Footer6() {
+    const [formData, setFormData] = useState({ email: '' });
+      const [status, setStatus] = useState('');
+    
+      const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        sendForm('service_ukc9sve', 'template_7w6ij4w', e.target, 'aQ_b0gm5EDH5P9Mgk')
+          .then((result) => {
+            setStatus('Subscription successful!');
+            setFormData({ email: '' });
+          }, (error) => {
+            setStatus('Subscription failed. Please try again.');
+          });
+      };
     return (
         <>
             <footer>
@@ -17,10 +38,11 @@ export default function Footer6() {
                                             <p className="color-white mb-40 text-justify" style={{ textAlign: 'justify' }}>At OpsOdyssey, we ensure assurance in every detail beyond mere inspection. Our commitment to precision and quality delivers reliable solutions that empower your business in today’s fast-paced digital landscape.</p>                                         
                                               <div className="footer__newsletter-four footer__newsletter-six">
                                                 <p className="color-white text-subscribe">Subscribe Newsletter</p>
-                                                <form action="#">
-                                                    <input type="text" placeholder="e-mail Type . . ." />
+                                                <form onSubmit={handleSubmit}>
+                                                    <input    type="email" name="email" placeholder="e-mail Type . . ."      value={formData.email} onChange={handleChange} />
                                                     <button className="btn" type="submit">Subscribe</button>
                                                 </form>
+                                                {status && <p className="text-white mt-10">{status}</p>} 
                                             </div>
                                         </div>
                                     </div>
@@ -49,7 +71,7 @@ export default function Footer6() {
                                                 <li><Link href="/services">Services</Link></li>
                                                 <li><Link href="/about">About us</Link></li>
                                                 <li><Link href="/contact">Contact us</Link></li>
-                                                <li><Link href="/faqs">FAQs</Link></li>
+                                                <li><Link href="/faqs">FAQs & Helps</Link></li>
                                                
                                             </ul>
                                         </div>
@@ -64,7 +86,7 @@ export default function Footer6() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="copyright-text-two">
-                                        <p>Copyright © <Link href="/">OpsOdysee</Link> | All Right Reserved</p>
+                                        <p>Copyright © <Link href="/">OpsOdyssey</Link> | All Right Reserved</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">

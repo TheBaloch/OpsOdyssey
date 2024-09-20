@@ -16,7 +16,7 @@ export default function Menu() {
                         <li><Link href="/index-8">08. IT Solutions</Link></li>
                     </ul> */}
                 </li>
-                <li className="menu-item-has-children" ><Link href="/services">Services</Link>
+                <li ><Link href="/services">Services</Link>
                     <ul className="sub-menu">
                         <li><Link href="/web-development">Website Dev</Link></li>
                         <li><Link href="/mobile-app-dev">Mobile App Dev</Link></li>

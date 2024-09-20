@@ -184,7 +184,7 @@ export default function Services() {
                            <div className="row justify-content-center">
                               <div className="col-xl-6 col-lg-8">
                                 <div className="section-title text-center mb-40">
-                                    <span className="sub-title">Our Key Offerings</span>
+                                    <span className="sub-title">Key Services</span>
                                     <h2 className="title">What We Offer More?</h2>
                                 </div>
                             </div>

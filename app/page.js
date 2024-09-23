@@ -29,8 +29,8 @@ export default function Home() {
                 <Services2 />
                 <Brand3 />  
                 <Steps />
-                <div className="call-back-area pt-0">
-               <LetConnect />
+                <div className=" mt-90 mb-80">
+               <Callback2 />
                </div>  
                       
                          

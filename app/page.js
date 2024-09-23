@@ -29,7 +29,7 @@ export default function Home() {
                 <Services2 />
                 <Brand3 />  
                 <Steps />
-                <div className=" mt-90 mb-80">
+                <div className=" mt-80 mb-80">
                <Callback2 />
                </div>  
                       

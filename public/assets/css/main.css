@@ -13578,7 +13578,7 @@ blockquote p {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  padding: 18px;
+  padding: 14px;
   background-color: var(--tg-heading-color);
   color: var(--tg-color-white-default);
   max-width: 220px;

@@ -31,7 +31,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h4 className="title">Address</h4>
-                                                        <p>Glassgow, Scotland, UK</p>
+                                                        <p>Glasgow, Scotland, UK</p>
                                                     </div>
                                                 </li>
                                                 <li>

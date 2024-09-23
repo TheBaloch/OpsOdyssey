@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout"
 import LetConnect from "@/components/LetConnect/LetConnect"
 import Review from "@/components/Review/Review"
 import About1 from "@/components/sections/About1"
+import Callback2 from "@/components/sections/Callback2"
 import Counter2 from "@/components/sections/Counter2"
 import Faqs1 from "@/components/sections/Faqs1"
 import Testimonial6 from "@/components/sections/Testimonial6"
@@ -615,10 +616,11 @@ export default function About() {
                     {/* team-area-end */}
                     {/* call-back-area */}
                    
-                    <section className="call-back-area mt-0">
-                       <LetConnect />
-                    </section>
+                  
                     <Faqs1 />
+                    <section className=" mt-50 mb-50">
+                       <Callback2 />
+                    </section>
                      
                 </div>
             </Layout>

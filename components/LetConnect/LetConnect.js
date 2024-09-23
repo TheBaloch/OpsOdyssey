@@ -23,8 +23,14 @@ export default function LetConnect(){
           .then((result) => {
             setStatus('Message sent successfully');
             setFormData({ name: '', email: '', phone: '', message: '' });
+            setTimeout(() =>{
+              setStatus('');
+            },3000 );
           }, (error) => {
             setStatus('Message sending failed');
+            setTimeout(() =>{
+              setStatus('');
+            },3000 );
           });
       };
     return(
@@ -51,7 +57,8 @@ export default function LetConnect(){
                                         name="name"
                                        placeholder="Name "
                                        value={formData.name}
-                                        onChange={handleChange} />
+                                        onChange={handleChange}
+                                        required />
                                     </div>
                                 </div>
                                    <div className="col-md-6">
@@ -61,20 +68,16 @@ export default function LetConnect(){
                                          name="email" 
                                          placeholder="E-mail " 
                                          value={formData.email}
-                                         onChange={handleChange}/>
+                                         onChange={handleChange}
+                                         required />
                                          </div>
                                     </div>
-                                   <div className="col-md-6">
-                                         <div className="form-grp">
-                                            <input 
-                                            type="number" 
-                                            placeholder="Phone "
-                                             name="phone"
-                                            value={formData.phone}
-                                            onChange={handleChange} />
-                                         </div>
+                                   <div className="col-md-12">
+                                   <div className="form-grp">
+                                        <textarea name="message" placeholder="Message"    value={formData.message} onChange={handleChange} required />
                                     </div>
-                                    <div className="col-md-6">
+                                    </div>
+                                    <div className="col-md-12">
                                         <button type="submit" className="btn">Send Now</button>
                                         {status && <p className="text-white p-4 text-center">{status}</p>}
                                      </div>

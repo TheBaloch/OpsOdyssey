@@ -1,4 +1,5 @@
 import GetQuote from "../GetQuote/GetQuote";
+import GetSer from "../GetSer/GetSer";
 
 export default function CallService() {
     return (
@@ -23,7 +24,7 @@ export default function CallService() {
                                         <path fillRule="evenodd" clipRule="evenodd" d="M26.79 21.663L28.4874 21.4227C29.284 21.3101 29.9883 20.8472 30.4078 20.161L32.2232 17.189C32.3859 16.9231 32.3015 16.5751 32.0356 16.4124C31.7697 16.2501 31.4217 16.3341 31.259 16.6L29.4437 19.572C29.2004 19.9701 28.7913 20.2386 28.3292 20.3041L26.6317 20.5441C26.3229 20.5878 26.1075 20.874 26.1511 21.1828C26.1948 21.4912 26.4811 21.7066 26.79 21.663Z" fill="#F7A400" />
                                     </svg>
                                     <h6>Need more help?</h6>
-                                    <p>Curious to learn more? Check out our FAQs or reach out to us for a personalized quote.</p>
+                                    <p>Want to dive deeper? Send us a message and let's talk!</p>
                                 </div>
                             </div>
                     {/* <img 
@@ -36,7 +37,7 @@ export default function CallService() {
                
                 <div className="col-lg-3 col-md-3 col-sm-12">
                     <div className=" ">
-                        <GetQuote />
+                        <GetSer />
                     </div>
                 </div>
             </div>

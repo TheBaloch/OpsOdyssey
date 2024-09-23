@@ -18,8 +18,14 @@ export default function Footer6() {
           .then((result) => {
             setStatus('Thank You For Subscribing!');
             setFormData({ email: '' });
+            setTimeout(() =>{
+                setStatus('');
+              },3000 );
           }, (error) => {
             setStatus('Subscription failed. Please try again.');
+            setTimeout(() =>{
+                setStatus('');
+              },3000 );
           });
       };
     return (
@@ -39,7 +45,7 @@ export default function Footer6() {
                                               <div className="footer__newsletter-four footer__newsletter-six">
                                                 <p className="color-white text-subscribe">Subscribe Newsletter</p>
                                                 <form onSubmit={handleSubmit}>
-                                                    <input    type="email" name="email" placeholder="e-mail Type . . ."      value={formData.email} onChange={handleChange} />
+                                                    <input    type="email" name="email" placeholder="e-mail Type . . ."   required      value={formData.email} onChange={handleChange} />
                                                     <button className="btn" type="submit">Subscribe</button>
                                                 </form>
                                                 {status && <p className="text-white mt-10">{status}</p>} 

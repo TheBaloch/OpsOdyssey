@@ -21,9 +21,14 @@ export default function ContactQuote(){
        .then((result) =>{
          setStatus('Message sent successfully');
          setFormData({name:'' ,email:'', phone :'',message:''});
+         setTimeout(() =>{
+            setStatus('');
+          },3000 );
        }, (error) =>{
         setStatus('Message sending failed');
-
+        setTimeout(()=>{
+            setStatus('')
+          },3000);
        });
     };
     return(
@@ -32,22 +37,22 @@ export default function ContactQuote(){
        
         <form  onSubmit={handleSubmit}>
             <div className="form-grp">
-                <textarea name="message" placeholder="Message"    value={formData.message} onChange={handleChange} />
+                <textarea name="message" placeholder="Message"    value={formData.message} onChange={handleChange} required />
             </div>
             <div className="row">
                 <div className="col-md-4">
                     <div className="form-grp">
-                        <input type="text" name="name" placeholder="Name"  value={formData.name} onChange={handleChange} />
+                        <input type="text" name="name" placeholder="Name"  value={formData.name} onChange={handleChange}  required  />
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="form-grp">
-                        <input type="email" name="email" placeholder="Email"    value={formData.email} onChange={handleChange}/>
+                        <input type="email" name="email" placeholder="Email"    value={formData.email} onChange={handleChange} required />
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="form-grp">
-                        <input type="number" name="phone" placeholder="Phone"  value={formData.phone} onChange={handleChange} />
+                        <input type="number" name="phone" placeholder="Phone"  value={formData.phone} onChange={handleChange} required />
                     </div>
                 </div>
             </div>

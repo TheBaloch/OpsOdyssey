@@ -2,7 +2,7 @@
 import { sendForm } from "@emailjs/browser";
 import { useState } from "react";
 
-export default function GetQuote() {
+export default function GetSer() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -59,29 +59,10 @@ export default function GetQuote() {
               required
             />
           </div>
-          <div className="form-grp select-grp">
-            <select
-              name="message"
-              className="orderby"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            >
-              <option value="">Select a service</option>
-              <option value="Discussing a future Project">Discussing a future Project</option>
-              <option value="Digital Marketing">Digital Marketing</option>
-              <option value="Mobile App Development">Mobile App Development</option>
-              <option value="Search Engine Optimization">Search Engine Optimization</option>
-              <option value="Social Media Marketing">Social Media Marketing</option>
-              <option value="UI/UX Design">UI/UX Design</option> 
-              <option value="Website Development">Website Development</option>
-              <option value="Website Development">Web Scraping</option>
-              <option value="Website Development">DevOps</option>
-              <option value="Website Development">Telephony Solutions</option>
-              <option value="Something else">Something else</option>
-            </select>
-          </div>
-          <button type="submit" className="btn mt-4">Request a Quote</button>
+          <div className="form-grp">
+                <textarea name="message" placeholder="Message"    value={formData.message} onChange={handleChange} required />
+            </div>
+          <button type="submit" className="btn mt-4">Send Message</button>
           {status && <p className="status-message ">{status}</p>}
         </form>
       </div>

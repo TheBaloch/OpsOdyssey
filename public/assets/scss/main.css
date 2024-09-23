@@ -7914,6 +7914,18 @@ textarea {
 .testimonial__form .form-grp {
   margin-bottom: 10px;
 }
+
+.testimonial__form .form-grp textarea {
+  width: 100%;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #D0D6E1;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--tg-body-color);
+  padding: 15px 20px;
+  height: 50px;
+}
 .testimonial__form .form-grp input {
   width: 100%;
   background: transparent;
@@ -7925,6 +7937,7 @@ textarea {
   padding: 15px 20px;
   height: 50px;
 }
+
 .testimonial__form .form-grp input::-moz-placeholder {
   font-size: 14px;
   font-weight: 500;

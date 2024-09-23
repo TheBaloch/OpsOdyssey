@@ -14,7 +14,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, transp
                             <div className="col-lg-6">
                                 <ul className="tg-header__top-info left-side list-wrap">
                                     <li><i className="flaticon-phone-call" /><Link href="tel:447453311868">+447453311868</Link></li>
-                                    <li><i className="flaticon-pin" />Glassgow, Scotland, UK</li>
+                                    <li><i className="flaticon-pin" />Glasgow, Scotland, UK</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">

@@ -37,7 +37,7 @@ export default function GetSer() {
   return (
     <div className="container">
       <div className="testimonial__form">
-        <h2 className="title">Get a Quote</h2>
+        <h2 className="title">Get In Touch</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-grp">
             <input

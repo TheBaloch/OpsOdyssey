@@ -42,8 +42,7 @@ export default function LetConnect(){
                          <div className="section-title white-title mb-10">
                             <h2 className="title">Let's Connect</h2>
                          </div>
-                            <p>Transform your business and get online with less hassle with our comprehensive development solutions.</p>
-                      
+                            <p>Revitalize your business and effortlessly launch your online presence with our all-encompassing development solutions. We offer customized services that streamline your experience, helping you reach your digital objectives with ease.</p>                
                      </div>
                 </div>
                 <div className="col-lg-6">

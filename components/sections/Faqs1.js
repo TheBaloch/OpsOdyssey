@@ -52,7 +52,7 @@ export default function Faqs1() {
                         <div className="col-lg-6 mb-30">
                             <div className="box-faq-right">
                            
-                                <h1 className="title tg-element-title mb-20">Frequently asked questions</h1>
+                                <h1 className="title tg-element-title mb-20">Frequently Asked Questions</h1>
                                 {/* <p className="tg-element-title mb-40">Our power of choice is untrammelled and when nothing preventsbeing able to do what we like best every pleasure.</p> */}
                                 <div className="block-faqs">
                                     <div className="accordion wow fadeInUp" id="accordionFAQ">

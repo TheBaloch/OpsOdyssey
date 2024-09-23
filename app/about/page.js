@@ -618,7 +618,7 @@ export default function About() {
                    
                   
                     <Faqs1 />
-                    <section className=" mt-50 mb-50">
+                    <section className=" mt-40 mb-50">
                        <Callback2 />
                     </section>
                      

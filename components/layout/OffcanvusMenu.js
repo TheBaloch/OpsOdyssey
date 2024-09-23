@@ -13,7 +13,7 @@ export default function OffcanvusMenu({ isOffcanvus, handleOffcanvus }) {
                 <div className="offCanvas__side-info mb-30">
                     <div className="contact-list mb-30">
                         <h4>Office Address</h4>
-                        <p>Glassgow, Scotland, UK</p>
+                        <p>Glasgow, Scotland, UK</p>
                     </div>
                     <div className="contact-list mb-30">
                         <h4>Phone Number</h4>

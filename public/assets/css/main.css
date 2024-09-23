@@ -10608,6 +10608,7 @@ textarea {
 }
 .call-back-content p {
   margin-bottom: 0;
+  text-align: justify;
   color: #D0D0DD;
   font-weight: 500;
   width: 90%;

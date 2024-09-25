@@ -30,7 +30,7 @@ export default function Faq3() {
                             <div className="box-faq-right">
                             <div className="section-title text-center mb-40">
                                      <span className="sub-title">FAQS</span>
-                                      <h2 className="title">Frequently asked questions</h2>
+                                      <h2 className="title">Frequently Asked Questions</h2>
                              </div>
                                 {/* <p className="tg-element-title mb-40">Our power of choice is untrammelled and when nothing preventsbeing able to do what we like best every pleasure.</p> */}
                                 <div className="block-faqs">

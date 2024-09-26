@@ -31,6 +31,9 @@ export default function ContactQuote(){
           },3000);
        });
     };
+    const closeMessage = () => {
+        setStatus('');
+      };
     return(
         <div className="contact__form-wrap">
         <h2 className="title pb-2">Give Us a Message</h2>
@@ -57,8 +60,11 @@ export default function ContactQuote(){
                 </div>
             </div>
            
-            <button type="submit" className="btn">Submit post</button>
-            {status && <p className="status-message">{status}</p>}
+            <button type="submit" className="btn">Send Message</button>
+                    {status && (<div className="success-msg mt-4 "> 
+                     <img className="success-icon " src="assets/img/icon/checked.png" />
+                     <p className="text-white">{status}</p>
+                    <button onClick={closeMessage} className="close-btn"><i className="far fa-window-close"  /></button> </div>)}
         </form>
        
     </div>

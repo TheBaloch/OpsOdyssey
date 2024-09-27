@@ -28,6 +28,9 @@ export default function Footer6() {
               },3000 );
           });
       };
+      const closeMessage = () => {
+        setStatus('');
+      };
     return (
         <>
             <footer>
@@ -48,7 +51,11 @@ export default function Footer6() {
                                                     <input    type="email" name="email" placeholder="e-mail Type . . ."   required      value={formData.email} onChange={handleChange} />
                                                     <button className="btn" type="submit">Subscribe</button>
                                                 </form>
-                                                {status && <p className="text-white mt-10">{status}</p>} 
+                                                {status && (<div className="success-msg mt-4 "> 
+                                                <img className="success-icon " src="assets/img/icon/checked.png" />
+                                                <p className="text-white">{status}</p>
+                                                <button onClick={closeMessage} className="close-btn"><i className="far fa-window-close"  /></button> </div>)}
+                                               
                                             </div>
                                         </div>
                                     </div>

@@ -33,6 +33,9 @@ export default function GetSer() {
         },3000);
       });
   };
+  const closeMessage = () => {
+    setStatus('');
+  };
 
   return (
     <div className="container">
@@ -63,7 +66,11 @@ export default function GetSer() {
                 <textarea name="message" placeholder="Message"    value={formData.message} onChange={handleChange} required />
             </div>
           <button type="submit" className="btn mt-4">Send Message</button>
-          {status && <p className="status-message ">{status}</p>}
+          {status && (<div className="success-msg mt-4 "> 
+            <img className="success-icon " src="assets/img/icon/checked.png" />
+            <p className="text-white">{status}</p>
+           <button onClick={closeMessage} className="close-btn"><i className="far fa-window-close"  /></button> </div>)}
+        
         </form>
       </div>
     </div>

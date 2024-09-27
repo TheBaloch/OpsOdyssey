@@ -32,9 +32,6 @@ export default function Callback2() {
               },3000 );
           });
       };
-      const closeMessage = () => {
-        setStatus('');
-      };
     return (
         <>
             <section className="call-back-area call-back-area-two">
@@ -94,11 +91,8 @@ export default function Callback2() {
                                    
                                     <div className="col-md-12">
                                         <button type="submit" className="btn">Send Now</button>
-                                        {status && (<div className="success-msg mt-4 "> 
-                                         <img className="success-icon " src="assets/img/icon/checked.png" />
-                                         <p className="text-white">{status}</p>
-                                        <button onClick={closeMessage} className="close-btn"><i className="far fa-window-close"  /></button> </div>)}
-                                    </div>
+                                        {status && <p className="text-white p-4 ">{status}</p>}
+                                     </div>
                             </div>
                         </form>
                                 </div>

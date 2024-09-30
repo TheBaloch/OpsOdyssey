@@ -13,7 +13,7 @@ import Link from "next/link"
 export default function About() {
     return (
         <>
-            <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="About Us" >
+            <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="About " >
                 <div> 
                    
 

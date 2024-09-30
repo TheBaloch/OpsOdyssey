@@ -9475,6 +9475,9 @@ textarea {
   cursor: pointer;
   color: #fff;
 }
+.close-btn:hover{
+  color:red;
+}
 
 .testimonial__form .form-grp textarea {
   width: 100%;
